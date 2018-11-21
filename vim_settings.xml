@@ -26,72 +26,36 @@
         <mark key="]" line="25" column="50" />
         <mark key="." line="25" column="50" />
       </file>
-      <file name="$USER_HOME$/WebstormProjects/Javascript/formatting.css" timestamp="1542825140175" />
+      <file name="$USER_HOME$/WebstormProjects/Javascript/main_fr_en.html" timestamp="1542840248160" />
     </filemarks>
     <jumps />
     <registers>
       <register name="1" type="4">
-        <text>2. You can return at any time on the questionnaire, answer in several times, your previous answers are recorded.\n&quot; +
-            &quot;        In case of modification, only the last answer will be taken into account.</text>
+        <text encoding="base64">CiAgICBib3JkZXI6IDNweCBzb2xpZCBncmVlbjs=</text>
       </register>
       <register name="&quot;" type="4">
+        <text encoding="base64">CiAgICBib3JkZXI6IDNweCBzb2xpZCBncmVlbjs=</text>
+      </register>
+      <register name="2" type="4">
         <text>2. You can return at any time on the questionnaire, answer in several times, your previous answers are recorded.\n&quot; +
             &quot;        In case of modification, only the last answer will be taken into account.</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>&quot;Avec le soutien de l'ADEME, du Ministère de l'écologie, de l'énergie et de la mer et du Ministère de l'économie et\n&quot;+
         &quot;des finances, de l'association AGIT (Alliance for Green IT) et des éco-organisations du réseau de recyclage des déchets&quot;+&quot;&quot;
         'd''équipements électriques et électroniques (DEEE) organiser une enquête pour évaluer les dépôts d''équipements informatiques&quot;+&quot;
         'et bureautiques présents dans les entreprises et plus généralement sur la maturité des entreprises en France dans&quot;+&quot;
         'l''utilisation de services numériques éco-responsables.</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">ICAgdmFyIHg7CiAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnbGFuZycpPXg7</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">CiAgICAvLyBub2luc3BlY3Rpb24gSlNBbm5vdGF0b3I=</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>function evaluate_lang() {
 var
-}</text>
-      </register>
-      <register name="6" type="4">
-        <text>ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-li {
-    float: left;
-}
-
-li h1 {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li h1:hover, dropdown:hover .dropbtn {
-    background-color: #111;
-}
-
-li.dropdown {
-    display: inline-block;
-}
-
-dropdown-content li:hover {background-color: #f1f1f1}
-
-.dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }</text>
       </register>
       <register name="7" type="4">
@@ -133,10 +97,45 @@ dropdown-content li:hover {background-color: #f1f1f1}
 }</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">CiAgICBtaW4td2lkdGg6IDE2MHB4Ow==</text>
+        <text>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+
+li h1 {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li h1:hover, dropdown:hover .dropbtn {
+    background-color: #111;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+dropdown-content li:hover {background-color: #f1f1f1}
+
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">CiAgICA=</text>
+        <text encoding="base64">CiAgICBtaW4td2lkdGg6IDE2MHB4Ow==</text>
       </register>
       <register name="-" type="4">
         <text>1. The duration of the questionnaire is estimated at 15 minutes if you are able to answer questions directly.</text>

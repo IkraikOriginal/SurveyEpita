@@ -32,7 +32,7 @@
 <form>
     <br>
     <div id="votre organization">
-        <h1 class="center">Votre Organization</h1>
+        <h1 class="center">Votre Organization</h1><br>
         <p>1. Dans quel secteur d'activites votre entreprise est-elle active?(lien avec votre code APE)</p>
         <label>
             <select name="secteur">
@@ -124,8 +124,8 @@
         </div>
     </div>
     <div id="La gouvernance GC/ETI">
-        <h1 class="center">La Gouvernance</h1>
-    <p class="center">44. Votre entreprise a-t-elle nommé un responsable informatique vert / responsable numérique?</p>
+        <br><h1 class="center">La Gouvernance</h1><br>
+    <p>44. Votre entreprise a-t-elle nommé un responsable informatique vert / responsable numérique?</p>
         <label>
             <input type="radio" name="Option44" value="Oui">Oui<br>
             <input type="radio" name="Option44" value="Non">Non<br>
@@ -154,23 +154,133 @@
 
 
     <p>48. Avez-vous une équipe d’arbitres compétents sur les thèmes du Green IT?</p>
-    <label>
-        <select name="nombreemployee">
-            <option value="Null">... Choisez</option>
-            <option value="Oui">Oui</option>
-            <option value="No">No</option>
-            <option value="Je ne sais pas">Je ne sais pas</option>
-        </select>
-    </label>
+        <label>
+            <input type="radio" name="Option48" value="Oui">Oui<br>
+            <input type="radio" name="Option48" value="Non">Non<br>
+            <input type="radio" name="Option48" value="JNCP">Je ne sais pas<br>
+        </label>
     <p>49. Avez-vous intégré l'informatique verte dans votre stratégie d'entreprise?</p>
-    <label>
-        <select name="nombreemployee">
-            <option value="Null">... Choisez</option>
-            <option value="Oui">Oui</option>
-            <option value="No">No</option>
-            <option value="Je ne sais pas">Je ne sais pas</option>
-        </select>
-    </label>
+        <label>
+            <input type="radio" name="Option49" value="Oui">Oui<br>
+            <input type="radio" name="Option49" value="Non">Non<br>
+            <input type="radio" name="Option49" value="JNCP">Je ne sais pas<br>
+        </label>
+    </div>
+    <div id="Impression et consommables">
+    <br><h1 class="center">Impression et Consommables</h1><br>
+        <p>74. Utilisez-vous des copieurs provenant d’une industrie de reconditionnement (d’occasion ou d’occasion)?</p>
+        <label>
+            <input type="radio" name="Option74" value="Oui">Oui<br>
+            <input type="radio" name="Option74" value="Non">Non<br>
+            <input type="radio" name="Option74" value="JNCP">Je ne sais pas<br>
+        </label>
+        <p>75. Consolidez-vous des imprimantes individuelles en imprimantes partagées?</p>
+        <label>
+            <input type="radio" name="Option75" value="Oui">Oui<br>
+            <input type="radio" name="Option75" value="Non">Non<br>
+            <input type="radio" name="Option75" value="JNCP">Je ne sais pas<br>
+        </label>
+
+        <p>76. Avez-vous configuré un système d’identification sur les imprimantes (pour déclencher l’impression)?</p>
+        <label>
+            <input type="radio" name="Option76" value="Oui">Oui<br>
+            <input type="radio" name="Option76" value="Non">Non<br>
+            <input type="radio" name="Option76" value="JNCP">Je ne sais pas<br>
+        </label>
+        <p >77. Quelle est la durée de vie moyenne de votre copieur / MFP professionnel *?</p>
+        <label>
+           <input type="radio" name="Option77" value="No">No<br>
+           <input type="radio" name="Option77" value="Pas envie de répondre">Pas envie de répondre<br>
+           <input type="radio" name="Option77" value="x ans (veuillez préciser)">x ans (veuillez préciser)<br>
+           <input type="text" name="Text77">
+        </label>
+
+        <p>78. Vos imprimantes sont-elles définies par défaut en mode éco? Notamment :</p>
+        <label>
+            <input type="radio" name="Option76" value="Oui">Oui<br>
+            <input type="radio" name="Option76" value="Non">Non<br>
+            <input type="radio" name="Option76" value="JNCP">Je ne sais pas<br>
+        </label>
+
+        <p>78. Vos imprimantes sont-elles définies par défaut en mode éco? Notamment :</p>
+
+        <table style="width:100%">
+            <tr>
+                <th><p>Question</p></th>
+                <th><p>Oui</p></th>
+                <th><p>Non</p></th>
+                <th><p>Je ne sais pas</p></th>
+            </tr>
+            <tr>
+            <td style="text-align: left"><p> 79. Économie d'énergie (veille automatique)</p></td>
+                <td><label><input type="radio" name="Option79" value="Oui"></label></td>
+                <td><label><input type="radio" name="Option79" value="Non"></label></td>
+                <td><label><input type="radio" name="Option79" value="JNCP"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p>80. Noir et blanc par défaut</p></td>
+                <td><label><input type="radio" name="Option80" value="Oui"></label></td>
+                <td><label><input type="radio" name="Option80" value="Non"></label></td>
+                <td><label><input type="radio" name="Option80" value="JNCP"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p>81. Duplex par défaut</p></td>
+                <td><label><input type="radio" name="Option81" value="Oui"></label></td>
+                <td><label><input type="radio" name="Option81" value="Non"></label></td>
+                <td><label><input type="radio" name="Option81" value="JNCP"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p>82. Mode brouillon par défaut</p></td>
+                <td><label><input type="radio" name="Optio82" value="Oui"></label></td>
+                <td><label><input type="radio" name="Option82" value="Non"></label></td>
+                <td><label><input type="radio" name="Option82" value="JNCP"></label></td>
+            </tr>
+        </table>
+
+        <p>83. Quel est le nombre de pages imprimées / jour / employé? (Équivalent A4)</p>
+        <label>
+            <select name="nombreemployee">
+                <option value="Null">... Choisez</option>
+                <option value="Moins de 10">Moins de 10</option>
+                <option value="De 10 à 20">De 10 à 20</option>
+                <option value="De 20 à 30">De 20 à 30</option>
+                <option value="Plus de 30">Plus de 30</option>
+                <option value="Je ne sais pas">Je ne sais pas</option>
+            </select>
+        </label>
+
+
+        <p>85. Organisez-vous la collecte séparée des cartouches / toners usagés?</p>
+        <label>
+            <input type="radio" name="Option85" value="Oui, à une industrie de reconditionnement">Oui, à une industrie de reconditionnement<br>
+            <input type="radio" name="Option85" value="Oui, vers une filière de recyclage (destruction)">Oui, vers une filière de recyclage (destruction)<br>
+            <input type="radio" name="Option85" value="Aucun dispositif de collecte séparé n'est prévu">Aucun dispositif de collecte séparé n'est prévu<br>
+        </label>
+
+
+        <p>86. Préférez-vous l'utilisation de papier recyclé?</p>
+        <label>
+            <input type="checkbox" name="Option86" value="Oui,notre papier est fabriqué à partir de pâte vierge">Oui, notre papier est fabriqué à partir de pâte vierge<br>
+            <input type="checkbox" name="Option86" value="Oui, du papier mélangé">Oui, du papier mélangé<br>
+            <input type="checkbox" name="Option86" value="Oui, 100% recyclé">Oui, 100% recyclé<br>
+            <input type="checkbox" name="Option86" value="Je ne fais pas attention">Je ne fais pas attention<br>
+        </label>
+        <p>87. Choisissez-vous du papier certifié?</p>
+        <label>
+            <input type="checkbox" name="Option87" value="Oui, FSC">Oui, FSC<br>
+            <input type="checkbox" name="Option87" value="Oui, PEFC">Oui, PEFC<br>
+            <input type="checkbox" name="Option87" value="Oui, Ange Bleu">Oui, Ange Bleu<br>
+            <input type="checkbox" name="Option87" value="Oui, Label Européen">Oui, Label Européen<br>
+            <input type="checkbox" name="Option87" value="Oui, autre">Oui, autre<br>
+            <input type="text" name="Comment87"><br>
+            <input type="checkbox" name="Option87" value="Je ne fais pas attention">Je ne fais pas attention<br>
+        </label>
+        <p>88. Organisez-vous la collecte séparée des vieux papiers pour le recyclage?</p>
+        <label>
+            <input type="radio" name="Option88" value="Oui">Oui<br>
+            <input type="radio" name="Option88" value="Non">Non<br>
+            <input type="radio" name="Option76" value="JNCP">Je ne sais pas<br>
+        </label>
     </div>
 </form>
 </body>

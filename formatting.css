@@ -8,9 +8,14 @@ h1 {
     color: chocolate;
 }
 
-p, body {
+p {
     font-family: "Trebuchet MS", sans-serif;
     font-size: 20px;
+    color: maroon;
+}
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 15px;
     color: maroon;
 }
 ul {
@@ -79,9 +84,11 @@ form {
 .center{
     text-align: center;
 }
-table {
+th, td{
     text-align: center;
     border-spacing: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 td .leftalign {
     text-align: left;

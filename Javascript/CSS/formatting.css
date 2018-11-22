@@ -1,0 +1,102 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: Tahoma, sans-serif;
+    font-size: 25px;
+    color: chocolate;
+}
+
+p {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    color: maroon;
+}
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 15px;
+    color: maroon;
+}
+ul {
+    width: 100%;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+}
+
+li h1, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li h1:hover, .dropdown:hover .dropbtn {
+    background-color: antiquewhite;
+    color: chocolate;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content h1:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.sub {
+    font-size: 14px;
+    vertical-align: sub;
+}
+form {
+    border: 3px solid saddlebrown;
+}
+.center{
+    text-align: center;
+}
+th, td{
+    text-align: center;
+    border-spacing: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td .leftalign {
+    text-align: left;
+}
+
+h3{
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+    color: chocolate;
+    text-align: center;
+}

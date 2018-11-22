@@ -4,7 +4,7 @@
     <script type="text/javascript" src="function.js"></script>
     <link rel="stylesheet" type="text/css" href="formatting.css">
     <meta charset="UTF-8">
-    <title id="title">La Questionnaire</title>
+    <title id="title">Le Questionnaire</title>
 </head>
 <body>
 <ul>
@@ -33,13 +33,13 @@
     <br>
     <div id="votre organization">
         <h1 class="center">Votre Organization</h1><br>
-        <p>1. Dans quel secteur d'activites votre entreprise est-elle active?(lien avec votre code APE)</p>
+        <p id="1"> 1. Dans quel secteur d'activité votre entreprise est-elle active? (lié avec votre code APE)</p>
         <label>
             <select name="secteur">
-                <option value="Null">....Choisez</option>
+                <option value="Null" id="Null1">....Choisissez</option>
                 <option value="Industrie">Industrie</option>
                 <option value="Affaires">Affaires</option>
-                <option value="Information/Communication">Information et Communication/option>
+                <option value="Information/Communication">Information et Communication</option>
                 <option value="Autre activité de services">Autre activité de services</option>
                 <option value="Les autres activities">Toutes les autres activités (activités financières, agricoles ...)</option>
                 <option value="Construction">Construction</option>
@@ -48,10 +48,10 @@
                 <option value="Immobilier">Immobilier</option>
             </select>
         </label>
-        <p>2. Quel est le nombre d'employés dans votre entreprise le 18/12/31?</p>
+        <p id="2">2. Quel est le nombre d'employés dans votre entreprise le 18/12/31?</p>
         <label>
             <select name="nombreemployee">
-                <option value="Null">... Choisez</option>
+                <option value="Null" id="Null2">... Choisissez</option>
                 <option value="1 à 2">1 à 2</option>
                 <option value="3 à 9">3 à 9</option>
                 <option value="10 à 49">10 à 49</option>
@@ -60,10 +60,10 @@
                 <option value="Plus de 5000">Plus de 5000</option>
             </select>
         </label>
-        <p>3. Quel est le chiffre d'affaires de votre entreprise au cours du dernier exercice? (ou budget annuel du secteur public)</p>
+        <p id="3">3. Quel est le chiffre d'affaires de votre entreprise au cours du dernier exercice? (ou budget annuel du secteur public)</p>
         <label>
             <select name="ChiffreAffaires">
-                <option value="Null">...Choisez</option>
+                <option value="Null" id="Null3">...Choisissez</option>
                 <option value="0 à 100K €">0 à 100K €</option>
                 <option value="100K à 500K €">100K à 500K €</option>
                 <option value="500K à 2M €">500K à 2M €</option>
@@ -72,13 +72,13 @@
                 <option value="Plus de 50M €">Plus de 50M €</option>
             </select>
         </label>
-        <p>4. Développez-vous des services numériques à usage interne ou externe (vente aux clients)?</p>
+        <p id="4">4. Développez-vous des services numériques à usage interne ou externe (vente aux clients)?</p>
         <label>
             <input type="radio" name="Option4" value="Oui">Oui<br>
         <input type="radio" name="Option4" value="Non">Non<br>
          </label>
-        <div id="Oui">
-        <p>5. Quel est le nombre d'utilisateurs de vos services numériques?</p>
+        <div id="4Oui">
+        <p id="5">5. Quel est le nombre d'utilisateurs de vos services numériques?</p>
         <label>
             <input type="text" name="5.noutil">
         </label>
@@ -86,36 +86,36 @@
             <table style="width:100%">
                 <tr>
                     <th><p>Question</p></th>
-                    <th><p>Oui</p></th>
+                    <th><p id="Oui5">Oui</p></th>
                     <th><p>Non</p></th>
                     <th><p>Je ne sais pas</p></th>
                 </tr>
                 <tr>
-                    <td style="text-align: left"><p>6. Appliquez-vous les règles et les meilleures pratiques pour l’accessibilité numérique?</p></td>
+                    <td style="text-align: left"><p id="6">6. Appliquez-vous les règles et les meilleures pratiques pour l’accessibilité numérique?</p></td>
                     <td><label><input type="radio" name="Option6" value="Oui"></label></td>
                     <td><label><input type="radio" name="Option6" value="Non"></label></td>
                     <td><label><input type="radio" name="Option6" value="JNCP"></label></td>
                 </tr>
                 <tr>
-                    <td style="text-align: left"><p>7. Avez-vous optimisé les états et les impressions dans vos outils d'application (nombre de pages réduit lors de l'impression, consommation d'encre, etc.)</p></td>
+                    <td style="text-align: left"><p id="7">7. Avez-vous optimisé les états et les impressions dans vos outils d'application (nombre de pages réduit lors de l'impression, consommation d'encre, etc.)</p></td>
                     <td><label><input type="radio" name="Option7" value="Oui"></label></td>
                     <td><label><input type="radio" name="Option7" value="Non"></label></td>
                     <td><label><input type="radio" name="Option7" value="JNCP"></label></td>
                 </tr>
                 <tr>
-                    <td style="text-align: left"><p>8. Intégrez-vous les principes de l'écoconception des services numériques?</p></td>
+                    <td style="text-align: left"><p id="8">8. Intégrez-vous les principes de l'écoconception des services numériques?</p></td>
                     <td><label><input type="radio" name="Option8" value="Oui"></label></td>
                     <td><label><input type="radio" name="Option8" value="Non"></label></td>
                     <td><label><input type="radio" name="Option8" value="JNCP"></label></td>
                 </tr>
                 <tr>
-                    <td style="text-align: left"><p>9. Utilisez-vous une architecture d’application modulaire?</p></td>
+                    <td style="text-align: left"><p id="9">9. Utilisez-vous une architecture d’application modulaire?</p></td>
                     <td><label><input type="radio" name="Option9" value="Oui"></label></td>
                     <td><label><input type="radio" name="Option9" value="Non"></label></td>
                     <td><label><input type="radio" name="Option9" value="JNCP"></label></td>
                 </tr>
                 <tr>
-                    <td style="text-align: left"><p>10. Faites-vous une revue de conception à la fin du développement de votre application?</p></td>
+                    <td style="text-align: left"><p id="10">10. Faites-vous une revue de conception à la fin du développement de votre application?</p></td>
                     <td><label><input type="radio" name="Option10" value="Oui"></label></td>
                     <td><label><input type="radio" name="Option10" value="Non"></label></td>
                     <td><label><input type="radio" name="Option10" value="JNCP"></label></td>
@@ -123,87 +123,54 @@
             </table>
         </div>
     </div>
-    <div id="La gouvernance GC/ETI">
-        <br><h1 class="center">La Gouvernance</h1><br>
-    <p>44. Votre entreprise a-t-elle nommé un responsable informatique vert / responsable numérique?</p>
+    <div id="Le Systeme d'Information">
+        <br><h1 class="center">Le Système d'Information</h1><br>
+        <p id="11">11. Quel est le volume de stockage global de vos données d'entreprise (centralisé sur des disques durs externes, serveur centralisé, NAS, SAN ...) en téraoctets (To)?</p>
         <label>
-            <input type="radio" name="Option44" value="Oui">Oui<br>
-            <input type="radio" name="Option44" value="Non">Non<br>
-            <input type="radio" name="Option44" value="JNCP">Je ne sais pas<br>
+            <input type="text" name="Text11"><br>
+            <input type="radio" name="Option11" value="JNCP">Je ne sais pas<br>
+            <input type="radio" name="Option11" value="Pas envie de répondre">Pas envie de répondre<br>
         </label>
-    <p>45. Avez-vous une stratégie numérique responsable déclinée en un plan d’action?</p>
+        <p id="12">12. Avez-vous un serveur ou travaillez-vous uniquement avec un ou plusieurs postes de travail?</p>
         <label>
-            <input type="radio" name="Option45" value="Oui">Oui<br>
-            <input type="radio" name="Option45" value="Non">Non<br>
-            <input type="radio" name="Option45" value="JNCP">Je ne sais pas<br>
+            <input type="radio" name="Option12" value="Nous travaillons avec des postes de travail), sans serveur physique centralise">Nous travaillons avec des postes de travail), sans serveur physique centralisé<br>
+            <input type="radio" name="Option12" value="Nous avons (au moins) un serveur physique centralise">Nous avons (au moins) un serveur physique centralisé<br>
         </label>
-    <p>46. ​​L'informatique verte est-elle un sujet intégré à votre stratégie de RSE?</p>
+        <p id="13">13. Avez-vous une pièce dédiée, une simple pièce ou une armoire avec baie dédiée à votre infrastructure informatique?</p>
         <label>
-            <input type="radio" name="Option46" value="Oui">Oui<br>
-            <input type="radio" name="Option46" value="Non">Non<br>
-            <input type="radio" name="Option46" value="JNCP">Je ne sais pas<br>
+            <input type="radio" name="Option13" value="Un placard ou une pièce sans systeme specifique">Un placard ou une pièce sans système spécifique<br>
+            <input type="radio" name="Option13" value="Une salle dediee">Une salle dédiée<br>
         </label>
-
-    <p>47. Evaluez-vous régulièrement les impacts environnementaux de votre système d’information?</p>
-    <label>
-         <input type="radio" name="Option47" value="Oui partiellement, y compris uniquement les équipements présents dans l'entreprise">Oui partiellement, y compris uniquement les équipements présents dans l'entreprise<br>
-         <input type="radio" name="Option47" value="Oui tout à fait, y compris nos équipements et services internes hébergés par des tiers">Oui tout à fait, y compris nos équipements et services internes hébergés par des tiers<br>
-         <input type="radio" name="Option47" value="Non">Non<br>
-         <input type="radio" name="Option47" value="JNCP">Je ne sais pas<br>
-    </label>
-
-
-    <p>48. Avez-vous une équipe d’arbitres compétents sur les thèmes du Green IT?</p>
+        <p id="14">14. Votre salle informatique est-elle chez vous ou chez un hôte?</p>
         <label>
-            <input type="radio" name="Option48" value="Oui">Oui<br>
-            <input type="radio" name="Option48" value="Non">Non<br>
-            <input type="radio" name="Option48" value="JNCP">Je ne sais pas<br>
+            <input type="radio" name="Option14" value="Interne">Internal<br>
+            <input type="radio" name="Option14" value="Membre hote du code de conduite europeen pour les centres de donnees">Membre hôte du code de conduite européen pour les centres de données<br>
+            <input type="radio" name="Option14" value="Hote non-adherent du code de conduite europeen pour les centres de donnees">Hôte non-adhérent du code de conduite européen pour les centres de données<br>
         </label>
-    <p>49. Avez-vous intégré l'informatique verte dans votre stratégie d'entreprise?</p>
+        <p id="15">15. Quelle est la surface totale de vos salles informatiques (hors infrastructure technique *)? (en m2)</p>
         <label>
-            <input type="radio" name="Option49" value="Oui">Oui<br>
-            <input type="radio" name="Option49" value="Non">Non<br>
-            <input type="radio" name="Option49" value="JNCP">Je ne sais pas<br>
+            <input type="text" name="Text11"><br>
+            <input type="radio" name="Option15" value="JNCP">Je ne sais pas<br>
+            <input type="radio" name="Option11" value="Pas envie de repondre">Pas envie de répondre<br>
+        </label>
+        <p id="16">16. Connaissez-vous le PUE(Power Usage Effectiveness) de votre centre de données?</p>
+        <label>
+            <input type="radio" name="Option16" value="Moins de 1,6">Moins de 1,6<br>
+            <input type="radio" name="Option16" value="Entre 1,6 et 2,1">Entre 1,6 et 2,1<br>
+            <input type="radio" name="Option16" value="Plus de 2,1">Plus de 2,1<br>
+            <input type="radio" name="Option16" value="JNCP">Je ne sais pas<br>
+        </label>
+        <p id="17">17. Quel est le taux de charge ou d’utilisation énergétique de vos salles informatiques?</p>
+        <label>
+            <input type="radio" name="Option16" value="100% - 90% ">100% - 90% <br>
+            <input type="radio" name="Option16" value="90% - 60% ">90% - 60% <br>
+            <input type="radio" name="Option16" value="Less than 60% ">Less than 60% <br>
+            <input type="radio" name="Option16" value="JNCP">Je ne sais pas<br>
         </label>
     </div>
-    <div id="Impression et consommables">
-    <br><h1 class="center">Impression et Consommables</h1><br>
-        <p>74. Utilisez-vous des copieurs provenant d’une industrie de reconditionnement (d’occasion ou d’occasion)?</p>
-        <label>
-            <input type="radio" name="Option74" value="Oui">Oui<br>
-            <input type="radio" name="Option74" value="Non">Non<br>
-            <input type="radio" name="Option74" value="JNCP">Je ne sais pas<br>
-        </label>
-        <p>75. Consolidez-vous des imprimantes individuelles en imprimantes partagées?</p>
-        <label>
-            <input type="radio" name="Option75" value="Oui">Oui<br>
-            <input type="radio" name="Option75" value="Non">Non<br>
-            <input type="radio" name="Option75" value="JNCP">Je ne sais pas<br>
-        </label>
 
-        <p>76. Avez-vous configuré un système d’identification sur les imprimantes (pour déclencher l’impression)?</p>
-        <label>
-            <input type="radio" name="Option76" value="Oui">Oui<br>
-            <input type="radio" name="Option76" value="Non">Non<br>
-            <input type="radio" name="Option76" value="JNCP">Je ne sais pas<br>
-        </label>
-        <p >77. Quelle est la durée de vie moyenne de votre copieur / MFP professionnel *?</p>
-        <label>
-           <input type="radio" name="Option77" value="No">No<br>
-           <input type="radio" name="Option77" value="Pas envie de répondre">Pas envie de répondre<br>
-           <input type="radio" name="Option77" value="x ans (veuillez préciser)">x ans (veuillez préciser)<br>
-           <input type="text" name="Text77">
-        </label>
-
-        <p>78. Vos imprimantes sont-elles définies par défaut en mode éco? Notamment :</p>
-        <label>
-            <input type="radio" name="Option76" value="Oui">Oui<br>
-            <input type="radio" name="Option76" value="Non">Non<br>
-            <input type="radio" name="Option76" value="JNCP">Je ne sais pas<br>
-        </label>
-
-        <p>78. Vos imprimantes sont-elles définies par défaut en mode éco? Notamment :</p>
-
+    <div id="Oui2">
+        <p id="18">18. Avez-vous dirigé ou envisagez-vous des actions pour optimiser votre infrastructure? Notamment :</p>
         <table style="width:100%">
             <tr>
                 <th><p>Question</p></th>
@@ -212,35 +179,438 @@
                 <th><p>Je ne sais pas</p></th>
             </tr>
             <tr>
-            <td style="text-align: left"><p> 79. Économie d'énergie (veille automatique)</p></td>
+                <td style="text-align: left"><p id="19">19.L'achat d'équipements non informatiques auprès de salles informatiques (climatisation, traitement de l'air, onduleurs, etc.) selon des critères d'efficacité énergétique</p></td>
+                <td><label><input type="radio" name="Option19" value="Oui"></label></td>
+                <td><label><input type="radio" name="Option19" value="Non"></label></td>
+                <td><label><input type="radio" name="Option19" value="JNCP"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="20">20. Mise en œuvre des bonnes pratiques du "Code de conduite européen des centres de données"?</p></td>
+                <td><label><input type="radio" name="Option20" value="Oui"></label></td>
+                <td><label><input type="radio" name="Option20" value="Non"></label></td>
+                <td><label><input type="radio" name="Option20" value="JNCP"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="21">21. Centre de données suivi PUE?</p></td>
+                <td><label><input type="radio" name="Option21" value="Oui"></label></td>
+                <td><label><input type="radio" name="Option21" value="Non"></label></td>
+                <td><label><input type="radio" name="Option21" value="JNCP"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="22">22. Surveillance régulière des indicateurs environnementaux des salles informatiques?</p></td>
+                <td><label><input type="radio" name="Option22" value="Oui"></label></td>
+                <td><label><input type="radio" name="Option22" value="Non"></label></td>
+                <td><label><input type="radio" name="Option22" value="JNCP"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="23">23. Analyse d'impact environnemental de l'approche du centre de données en cycle de vie?</p></td>
+                <td><label><input type="radio" name="Option23" value="Oui"></label></td>
+                <td><label><input type="radio" name="Option23" value="Non"></label></td>
+                <td><label><input type="radio" name="Option23" value="JNCP"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="24">24. Optimiser l'architecture et l'aménagement des salles</p></td>
+                <td><label><input type="radio" name="Option24" value="Oui"></label></td>
+                <td><label><input type="radio" name="Option24" value="Non"></label></td>
+                <td><label><input type="radio" name="Option24" value="JNCP"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="25">25. L'urbanisation des halls dans les allées chaudes / froides</p></td>
+                <td><label><input type="radio" name="Option25" value="Oui"></label></td>
+                <td><label><input type="radio" name="Option25" value="Non"></label></td>
+                <td><label><input type="radio" name="Option25" value="JNCP"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="26">26. Confinement des flux d'air (corridors)?</p></td>
+                <td><label><input type="radio" name="Option26" value="Oui"></label></td>
+                <td><label><input type="radio" name="Option26" value="Non"></label></td>
+                <td><label><input type="radio" name="Option26" value="JNCP"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="27">27. L'utilisation de sources de refroidissement naturelles (free cooling)?</p></td>
+                <td><label><input type="radio" name="Option27" value="Oui"></label></td>
+                <td><label><input type="radio" name="Option27" value="Non"></label></td>
+                <td><label><input type="radio" name="Option27" value="JNCP"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="28">28. Mise en place d'un système de récupération de chaleur pour les salles informatiques (chauffage)?</p></td>
+                <td><label><input type="radio" name="Option28" value="Oui"></label></td>
+                <td><label><input type="radio" name="Option28" value="Non"></label></td>
+                <td><label><input type="radio" name="Option28" value="JNCP"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="29">29. La température de consigne dans le couloir froid reste supérieure à 24 °</p></td>
+                <td><label><input type="radio" name="Option29" value="Oui"></label></td>
+                <td><label><input type="radio" name="Option29" value="Non"></label></td>
+                <td><label><input type="radio" name="Option29" value="JNCP"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="30">30. Le choix d'une architecture de centre de données modulaire?</p></td>
+                <td><label><input type="radio" name="Option30" value="Oui"></label></td>
+                <td><label><input type="radio" name="Option30" value="Non"></label></td>
+                <td><label><input type="radio" name="Option30" value="JNCP"></label></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="Infrasture Informatique">
+        <br><h1 class="center">Infrasture Informatique</h1>
+        <div id="Oui3">
+            <p id="31">31. Avez-vous dirigé ou envisagez-vous des actions pour optimiser votre infrastructure? Notamment :</p>
+            <table style="width:100%">
+                <tr>
+                    <th><p>Question</p></th>
+                    <th><p>Oui</p></th>
+                    <th><p>Non</p></th>
+                    <th><p>Je ne sais pas</p></th>
+                </tr>
+                <tr>
+                    <td style="text-align: left"><p id="32">32.Suspension d'équipements réseau</p></td>
+                    <td><label><input type="radio" name="Option32" value="Oui"></label></td>
+                    <td><label><input type="radio" name="Option32" value="Non"></label></td>
+                    <td><label><input type="radio" name="Option32" value="JNCP"></label></td>
+                </tr>
+                <tr>
+                    <td style="text-align: left"><p id="33">33. Mise en commun des équipements physiques</p></td>
+                    <td><label><input type="radio" name="Option33" value="Oui"></label></td>
+                    <td><label><input type="radio" name="Option33" value="Non"></label></td>
+                    <td><label><input type="radio" name="Option33" value="JNCP"></label></td>
+                </tr>
+                <tr>
+                    <td style="text-align: left"><p id="34">34. Désinstallation des infrastructures inutiles</p></td>
+                    <td><label><input type="radio" name="Option34" value="Oui"></label></td>
+                    <td><label><input type="radio" name="Option34" value="Non"></label></td>
+                    <td><label><input type="radio" name="Option34" value="JNCP"></label></td>
+                </tr>
+                <tr>
+                    <td style="text-align: left"><p id="35">35. Traçabilité des éléments matériels (CMDB)</p></td>
+                    <td><label><input type="radio" name="Option35" value="Oui"></label></td>
+                    <td><label><input type="radio" name="Option35" value="Non"></label></td>
+                    <td><label><input type="radio" name="Option35" value="JNCP"></label></td>
+                </tr>
+                <tr>
+                    <td style="text-align: left"><p id="36">36. Le dimensionnement correct des serveurs par rapport à leur utilisation</p></td>
+                    <td><label><input type="radio" name="Option36" value="Oui"></label></td>
+                    <td><label><input type="radio" name="Option36" value="Non"></label></td>
+                    <td><label><input type="radio" name="Option36" value="JNCP"></label></td>
+                </tr>
+                <tr>
+                    <td style="text-align: left"><p id="37">37. Donner la priorité aux équipements compatibles ASHRAE 2</p></td>
+                    <td><label><input type="radio" name="Option37" value="Oui"></label></td>
+                    <td><label><input type="radio" name="Option37" value="Non"></label></td>
+                    <td><label><input type="radio" name="Option37" value="JNCP"></label></td>
+                </tr>
+                <tr>
+                    <td style="text-align: left"><p id="38">38. Une procédure de provisioning et de déprovisioning d'équipements de traitement de données dans des centres de donnée?</p></td>
+                    <td><label><input type="radio" name="Option38" value="Oui"></label></td>
+                    <td><label><input type="radio" name="Option38" value="Non"></label></td>
+                    <td><label><input type="radio" name="Option38" value="JNCP"></label></td>
+                </tr>
+            </table>
+        </div>
+
+        <p id="39">39. Connaissez-vous le nombre de serveurs physiques et virtuels dans votre entreprise?</p>
+        <label>
+            <input type="radio" name="Option39" value="Oui">Oui<br>
+            <input type="radio" name="Option39" value="Non">Non <br>
+            <input type="radio" name="Option39" value="Pas envie de répondre">Pas envie de répondre<br>
+        </label>
+        <p id="40">40. Combien de serveurs physiques avez-vous?</p>
+        <label>
+            <input type="text" name="Text40"><br>
+        </label>
+        <p id="41">41. Combien de serveurs virtuels avez-vous?</p>
+        <label>
+            <input type="text" name="Text41"><br>
+        </label>
+        <p id="42">42. Quelle sera l'évolution de votre nombre de serveurs physiques pour 2019? (en% ou quantité)</p>
+        <label>
+            En %  <input type="text" name="text42" ><br>
+            En quantité  <Input type="text" name="text42/2" ><br>
+            <input type="radio" name="Option44" value="Pas envie de répondre">Pas envie de répondre<br>
+            <input type="radio" name="Option45" value="JNCP">Je ne sais pas<br>
+        </label>
+        <p id="43">43. Quelle sera l'évolution de votre nombre de serveurs virtuels pour 2019? (en% ou quantité)</p>
+        <label>
+            En %  <input type="text" name="text43" ><br>
+            En quantité  <Input type="text" name="text43/2" ><br>
+            <input type="radio" name="Option44" value="Pas envie de répondre">Pas envie de répondre<br>
+            <input type="radio" name="Option45" value="JNCP">Je ne sais pas<br>
+        </label>
+    </div>
+    <div id="La gouvernance GC/ETI">
+        <br><h1 class="center">La Gouvernance</h1><br>
+    <p id="44">44. Votre entreprise a-t-elle nommé un responsable informatique vert / responsable numérique?</p>
+        <label>
+            <input type="radio" name="Option44" value="Oui">Oui<br>
+            <input type="radio" name="Option44" value="Non">Non<br>
+            <input type="radio" name="Option44" value="JNCP">Je ne sais pas<br>
+        </label>
+    <p id="45">45. Avez-vous une stratégie numérique responsable déclinée en un plan d’action?</p>
+        <label>
+            <input type="radio" name="Option45" value="Oui">Oui<br>
+            <input type="radio" name="Option45" value="Non">Non<br>
+            <input type="radio" name="Option45" value="JNCP">Je ne sais pas<br>
+        </label>
+    <p id="46">46. ​​L'informatique verte est-elle un sujet intégré à votre stratégie de RSE?</p>
+        <label>
+            <input type="radio" name="Option46" value="Oui">Oui<br>
+            <input type="radio" name="Option46" value="Non">Non<br>
+            <input type="radio" name="Option46" value="JNCP">Je ne sais pas<br>
+        </label>
+
+    <p id="47">47. Evaluez-vous régulièrement les impacts environnementaux de votre système d’information?</p>
+    <label>
+         <input type="radio" name="Option47" value="Oui partiellement, y compris uniquement les équipements présents dans l'entreprise">Oui partiellement, y compris uniquement les équipements présents dans l'entreprise<br>
+         <input type="radio" name="Option47" value="Oui tout à fait, y compris nos équipements et services internes hébergés par des tiers">Oui tout à fait, y compris nos équipements et services internes hébergés par des tiers<br>
+         <input type="radio" name="Option47" value="Non">Non<br>
+         <input type="radio" name="Option47" value="JNCP">Je ne sais pas<br>
+    </label>
+
+
+    <p id="48">48. Avez-vous une équipe d’arbitres compétents sur les thèmes du Green IT?</p>
+        <label>
+            <input type="radio" name="Option48" value="Oui">Oui<br>
+            <input type="radio" name="Option48" value="Non">Non<br>
+            <input type="radio" name="Option48" value="JNCP">Je ne sais pas<br>
+        </label>
+    <p id="49">49. Avez-vous intégré l'informatique verte dans votre stratégie d'entreprise?</p>
+        <label>
+            <input type="radio" name="Option49" value="Oui">Oui<br>
+            <input type="radio" name="Option49" value="Non">Non<br>
+            <input type="radio" name="Option49" value="JNCP">Je ne sais pas<br>
+        </label>
+    </div>
+    <div id="Votre Informatique">
+        <br><h1 class="center">Votre Informatique</h1><br>
+        <p id="50">50. Avez-vous ces équipements dans votre entreprise:</p>
+        <table style="width:100%">
+            <tr>
+                <th><p>Question</p></th>
+                <th><p>Utilisé</p></th>
+                <th><p>Non utilisé ou fonctionnel</p></th>
+                <th><p>Je ne sais pas</p></th>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="51">51. Stations fixes, postes de travail/p></td>
+                <td><label><input type="radio" name="Option51" value="Utilisé"></label></td>
+                <td><label><input type="radio" name="Option51" value="Non utilisé et fonctionnel"></label></td>
+                <td><label><input type="radio" name="Option51" value="Ni utilisé ni fonctionnel"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="52">52. ordinateurs portables, tablettes numériques</p></td>
+                <td><label><input type="radio" name="Option52" value="Utilisé"></label></td>
+                <td><label><input type="radio" name="Option52" value="Non utilisé et fonctionnel"></label></td>
+                <td><label><input type="radio" name="Option52" value="Ni utilisé ni fonctionnel"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="53">53. Petites imprimantes (<15 kg, potentiellement utilisées par un ménage)</p></td>
+                <td><label><input type="radio" name="Option53" value="Utilisé"></label></td>
+                <td><label><input type="radio" name="Option53" value="Non utilisé et fonctionnel"></label></td>
+                <td><label><input type="radio" name="Option53" value="Ni utilisé ni fonctionnel"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="54">54. Moniteurs à écran plat</p></td>
+                <td><label><input type="radio" name="Option54" value="Utilisé"></label></td>
+                <td><label><input type="radio" name="Option54" value="Non utilisé et fonctionnel"></label></td>
+                <td><label><input type="radio" name="Option54" value="Ni utilisé ni fonctionnel"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="55">55. Autres écrans plats (TV, écran de projection, tableau numérique ...)</p></td>
+                <td><label><input type="radio" name="Option55" value="Utilisé"></label></td>
+                <td><label><input type="radio" name="Option55" value="Non utilisé et fonctionnel"></label></td>
+                <td><label><input type="radio" name="Option55" value="Ni utilisé ni fonctionnel"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="56">56. Moniteurs CRT (moniteurs ou autres)</p></td>
+                <td><label><input type="radio" name="Option56" value="Utilisé"></label></td>
+                <td><label><input type="radio" name="Option56" value="Non utilisé et fonctionnel"></label></td>
+                <td><label><input type="radio" name="Option56" value="Ni utilisé ni fonctionnel"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="57">57. Projecteurs vidéo/p></td>
+                <td><label><input type="radio" name="Option57" value="Utilisé"></label></td>
+                <td><label><input type="radio" name="Option57" value="Non utilisé et fonctionnel"></label></td>
+                <td><label><input type="radio" name="Option57" value="Ni utilisé ni fonctionnel"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="58">58. Téléphones mobiles</p></td>
+                <td><label><input type="radio" name="Option58" value="Utilisé"></label></td>
+                <td><label><input type="radio" name="Option58" value="Non utilisé et fonctionnel"></label></td>
+                <td><label><input type="radio" name="Option58" value="Ni utilisé ni fonctionnel"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="59">59. Téléphones fixes (autonomes non connectés à une telle norme)</p></td>
+                <td><label><input type="radio" name="Option59" value="Utilisé"></label></td>
+                <td><label><input type="radio" name="Option59" value="Non utilisé et fonctionnel"></label></td>
+                <td><label><input type="radio" name="Option59" value="Ni utilisé ni fonctionnel"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="60">60. Appareils photo numériques</p></td>
+                <td><label><input type="radio" name="Option60" value="Utilisé"></label></td>
+                <td><label><input type="radio" name="Option60" value="Non utilisé et fonctionnel"></label></td>
+                <td><label><input type="radio" name="Option60" value="Ni utilisé ni fonctionnel"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="61">61. Périphériques à disque dur, stockage, sauvegarde</p></td>
+                <td><label><input type="radio" name="Option61" value="Utilisé"></label></td>
+                <td><label><input type="radio" name="Option61" value="Non utilisé et fonctionnel"></label></td>
+                <td><label><input type="radio" name="Option61" value="Ni utilisé ni fonctionnel"></label></td>
+            </tr>
+        </table>
+        <p id="62">62. Avez-vous d'autres appareils dans votre entreprise?</p>
+        <label>
+            <input type="radio" name="Option49" value="Oui">Oui<br>
+            <input type="radio" name="Option49" value="Non">Non<br>
+        </label>
+        <p id="63">63. Concernant les autres appareils, avez-vous dans votre entreprise:</p>
+        <table style="width:100%">
+            <tr>
+                <th><p>Question</p></th>
+                <th><p>Utilisé</p></th>
+                <th><p>Non utilisé ou fonctionnel</p></th>
+                <th><p>Je ne sais pas</p></th>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="64">64. Claviers/p></td>
+                <td><label><input type="radio" name="Option64" value="Utilisé"></label></td>
+                <td><label><input type="radio" name="Option64" value="Non utilisé et fonctionnel"></label></td>
+                <td><label><input type="radio" name="Option64" value="Ni utilisé ni fonctionnel"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="65">65. Souris</p></td>
+                <td><label><input type="radio" name="Option65" value="Utilisé"></label></td>
+                <td><label><input type="radio" name="Option65" value="Non utilisé et fonctionnel"></label></td>
+                <td><label><input type="radio" name="Option65" value="Ni utilisé ni fonctionnel"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="66">66. Tablettes graphiques</p></td>
+                <td><label><input type="radio" name="Option66" value="Utilisé"></label></td>
+                <td><label><input type="radio" name="Option66" value="Non utilisé et fonctionnel"></label></td>
+                <td><label><input type="radio" name="Option66" value="Ni utilisé ni fonctionnel"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="67">67. Scanners</p></td>
+                <td><label><input type="radio" name="Option67" value="Utilisé"></label></td>
+                <td><label><input type="radio" name="Option67" value="Non utilisé et fonctionnel"></label></td>
+                <td><label><input type="radio" name="Option67" value="Ni utilisé ni fonctionnel"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="68">68. haut-parleurs</p></td>
+                <td><label><input type="radio" name="Option68" value="Utilisé"></label></td>
+                <td><label><input type="radio" name="Option68" value="Non utilisé et fonctionnel"></label></td>
+                <td><label><input type="radio" name="Option68" value="Ni utilisé ni fonctionnel"></label></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><p id="69">69. Bureautique</p></td>
+                <td><label><input type="radio" name="Option69" value="Utilisé"></label></td>
+                <td><label><input type="radio" name="Option69" value="Non utilisé et fonctionnel"></label></td>
+                <td><label><input type="radio" name="Option69" value="Ni utilisé ni fonctionnel"></label></td>
+            </tr>
+        </table>
+    </div>
+    <div id="Consommation energique">
+        <br><h1 class="center">Consommation Energique</h1><br>
+        <p id="70">70. Connaissez-vous la consommation de votre poste de travail en kWh par an?</p>
+        <label>
+            <input type="radio" name="Option70" value="Oui">Oui, veuillez spécifier combien en% :
+            <input type="text" name="Text70"><br>
+            <input type="radio" name="Option70" value="Non">Non<br>
+        </label>
+        <p id="71">71. Suivez-vous la consommation énergétique des activités de votre entreprise?</p>
+        <label>
+            <input type="radio" name="Option71" value="Oui">Oui<br>
+            <input type="radio" name="Option71" value="Non">Non<br>
+            <input type="radio" name="Option71" value="JNCP">Je ne sais pas<br>
+        </label>
+        <p id="72">72. Connaissez-vous la part de l'informatique et des équipements informatiques dans la consommation totale d'énergie de votre entreprise?</p>
+        <label>
+            <input type="radio" name="Option72" value="Oui">Oui<br>
+            <input type="radio" name="Option72" value="Non">Non<br>
+            <input type="radio" name="Option72" value="JNCP">Je ne sais pas<br>
+        </label>
+        <p id="73">73. Avez-vous mis en place un système de gestion de l'alimentation? (arrêt automatique / arrêt des postes de travail)</p>
+        <label>
+            <input type="radio" name="Option72" value="Oui">Oui<br>
+            <input type="radio" name="Option72" value="Non">Non<br>
+            <input type="radio" name="Option72" value="JNCP">Je ne sais pas<br>
+        </label>
+    </div>
+    <div id="Impression et consommables">
+    <br><h1 class="center">Impression et Consommables</h1><br>
+        <p id="74">74. Utilisez-vous des copieurs provenant d’une industrie de reconditionnement (d’occasion ou d’occasion)?</p>
+        <label>
+            <input type="radio" name="Option74" value="Oui">Oui<br>
+            <input type="radio" name="Option74" value="Non">Non<br>
+            <input type="radio" name="Option74" value="JNCP">Je ne sais pas<br>
+        </label>
+        <p id="75">75. Consolidez-vous des imprimantes individuelles en imprimantes partagées?</p>
+        <label>
+            <input type="radio" name="Option75" value="Oui">Oui<br>
+            <input type="radio" name="Option75" value="Non">Non<br>
+            <input type="radio" name="Option75" value="JNCP">Je ne sais pas<br>
+        </label>
+
+        <p id="76">76. Avez-vous configuré un système d’identification sur les imprimantes (pour déclencher l’impression)?</p>
+        <label>
+            <input type="radio" name="Option76" value="Oui">Oui<br>
+            <input type="radio" name="Option76" value="Non">Non<br>
+            <input type="radio" name="Option76" value="JNCP">Je ne sais pas<br>
+        </label>
+        <p id="77">77. Quelle est la durée de vie moyenne de votre copieur / MFP professionnel *?</p>
+        <label>
+           <input type="radio" name="Option77" value="No">No<br>
+           <input type="radio" name="Option77" value="Pas envie de répondre">Pas envie de répondre<br>
+           <input type="radio" name="Option77" value="x ans (veuillez préciser)">x ans (veuillez préciser)<br>
+           <input type="text" name="Text77">
+        </label>
+
+        <p id="78">78. Vos imprimantes sont-elles définies par défaut en mode éco? Notamment :</p>
+        <label>
+            <input type="radio" name="Option76" value="Oui">Oui<br>
+            <input type="radio" name="Option76" value="Non">Non<br>
+            <input type="radio" name="Option76" value="JNCP">Je ne sais pas<br>
+        </label>
+
+
+
+        <table style="width:100%">
+            <tr>
+                <th><p>Question</p></th>
+                <th><p id="Oui79">Oui</p></th>
+                <th><p>Non</p></th>
+                <th><p>Je ne sais pas</p></th>
+            </tr>
+            <tr>
+            <td style="text-align: left"><p id="79"> 79. Économie d'énergie (veille automatique)</p></td>
                 <td><label><input type="radio" name="Option79" value="Oui"></label></td>
                 <td><label><input type="radio" name="Option79" value="Non"></label></td>
                 <td><label><input type="radio" name="Option79" value="JNCP"></label></td>
             </tr>
             <tr>
-                <td style="text-align: left"><p>80. Noir et blanc par défaut</p></td>
+                <td style="text-align: left"><p id="80">80. Noir et blanc par défaut</p></td>
                 <td><label><input type="radio" name="Option80" value="Oui"></label></td>
                 <td><label><input type="radio" name="Option80" value="Non"></label></td>
                 <td><label><input type="radio" name="Option80" value="JNCP"></label></td>
             </tr>
             <tr>
-                <td style="text-align: left"><p>81. Duplex par défaut</p></td>
+                <td style="text-align: left"><p id="81">81. Duplex par défaut</p></td>
                 <td><label><input type="radio" name="Option81" value="Oui"></label></td>
                 <td><label><input type="radio" name="Option81" value="Non"></label></td>
                 <td><label><input type="radio" name="Option81" value="JNCP"></label></td>
             </tr>
             <tr>
-                <td style="text-align: left"><p>82. Mode brouillon par défaut</p></td>
+                <td style="text-align: left"><p id="82">82. Mode brouillon par défaut</p></td>
                 <td><label><input type="radio" name="Optio82" value="Oui"></label></td>
                 <td><label><input type="radio" name="Option82" value="Non"></label></td>
                 <td><label><input type="radio" name="Option82" value="JNCP"></label></td>
             </tr>
         </table>
 
-        <p>83. Quel est le nombre de pages imprimées / jour / employé? (Équivalent A4)</p>
+        <p id="83">83. Quel est le nombre de pages imprimées / jour / employé? (Équivalent A4)</p>
         <label>
             <select name="nombreemployee">
-                <option value="Null">... Choisez</option>
+                <option value="Null" id="Null83">...Choisissez</option>
                 <option value="Moins de 10">Moins de 10</option>
                 <option value="De 10 à 20">De 10 à 20</option>
                 <option value="De 20 à 30">De 20 à 30</option>
@@ -248,9 +618,15 @@
                 <option value="Je ne sais pas">Je ne sais pas</option>
             </select>
         </label>
+        <p id="84">84. Pouvez-vous préciser le nombre de cartouches / toners:</p>
+        <label>
+            Cartouches utilisées par an<input type="text" name="cartouch">
+            Cartouches stockées dans l'entreprise moyenne<input type="text" name="cartouchavg">
+            Toners utilisés une année<input type="text" name="toner">
+            Toners stockés dans l'entreprise moyenne<input type="text" name="toneravg">
+        </label>
 
-
-        <p>85. Organisez-vous la collecte séparée des cartouches / toners usagés?</p>
+        <p id="85">85. Organisez-vous la collecte séparée des cartouches / toners usagés?</p>
         <label>
             <input type="radio" name="Option85" value="Oui, à une industrie de reconditionnement">Oui, à une industrie de reconditionnement<br>
             <input type="radio" name="Option85" value="Oui, vers une filière de recyclage (destruction)">Oui, vers une filière de recyclage (destruction)<br>
@@ -258,14 +634,14 @@
         </label>
 
 
-        <p>86. Préférez-vous l'utilisation de papier recyclé?</p>
+        <p id="86">86. Préférez-vous l'utilisation de papier recyclé?</p>
         <label>
             <input type="checkbox" name="Option86" value="Oui,notre papier est fabriqué à partir de pâte vierge">Oui, notre papier est fabriqué à partir de pâte vierge<br>
             <input type="checkbox" name="Option86" value="Oui, du papier mélangé">Oui, du papier mélangé<br>
             <input type="checkbox" name="Option86" value="Oui, 100% recyclé">Oui, 100% recyclé<br>
             <input type="checkbox" name="Option86" value="Je ne fais pas attention">Je ne fais pas attention<br>
         </label>
-        <p>87. Choisissez-vous du papier certifié?</p>
+        <p id="87">87. Choisissez-vous du papier certifié?</p>
         <label>
             <input type="checkbox" name="Option87" value="Oui, FSC">Oui, FSC<br>
             <input type="checkbox" name="Option87" value="Oui, PEFC">Oui, PEFC<br>
@@ -275,7 +651,7 @@
             <input type="text" name="Comment87"><br>
             <input type="checkbox" name="Option87" value="Je ne fais pas attention">Je ne fais pas attention<br>
         </label>
-        <p>88. Organisez-vous la collecte séparée des vieux papiers pour le recyclage?</p>
+        <p id="88">88. Organisez-vous la collecte séparée des vieux papiers pour le recyclage?</p>
         <label>
             <input type="radio" name="Option88" value="Oui">Oui<br>
             <input type="radio" name="Option88" value="Non">Non<br>

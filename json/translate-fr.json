@@ -1,0 +1,22 @@
+{
+  "p1": "Avec le soutien de l'ADEME, du Ministère de l'écologie, de l'énergie et de la mer et du Ministère de l'économie et des finances, de l'association AGIT (Alliance for Green IT) et des éco-organisations du réseau de recyclage des déchets d'équipements électriques et électroniques (DEEE) organiser une enquête pour évaluer les dépôts d'équipements informatiques et bureautiques présents dans les entreprises et plus généralement sur la maturité des entreprises en France dans l'utilisation de services numériques éco-responsables.",
+  "p2": "1. La durée du questionnaire est estimée à 15 minutes si vous êtes capable de répondre directement à des questions.",
+  "p3": "2. Vous pouvez revenir à tout moment sur le questionnaire, répondre en plusieurs fois, vos réponses précédentes sont enregistrées.En cas de modification, seule la dernière réponse sera prise en compte.",
+  "p4": "3. Vous pouvez soumettre ce questionnaire à plusieurs personnes de votre organisation. Tout ce que vous avez à faire est simplement de partager le lien vers le questionnaire.",
+  "p5": "Merci d'avoir participé à cette enquête. Votre réponse nous est précieuse pour constituer l’échantillon le plus représentatif des entreprises en France.",
+  "surv": "Questionnaire",
+  "title": "La Questionnaire",
+  "welcome": "Bienvenue en Green4Challenge Survey",
+  "makeYourSurvey": "Faites votre enquête",
+  "completedSurvey": "Enquête terminée",
+  "openingSurvey": "Enquête d'ouverture",
+  "notcompletedSurvey": "Enquête non complétée",
+  "getSurvey": "Obtenir l'enquête",
+  "introduction": "Introduction",
+  "complete": "Achevée",
+  "home": "Accueil",
+  "email": "Email",
+  "sectorOfActivity": "Secteur d'activité",
+  "numberOfEmployees":"Nombre d'employés",
+  "turnOver": "Tourner"
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="description" content="My Group: Soldiers" />
+		<meta name="keywords" content="" />
+
+		<title id="title">Green 4 Challenge</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- //main css -->
+		<link rel="stylesheet" href="assets/css/main.css" type="text/css"/>
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+
+		<!-- //js -->
+		<!-- Scripts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/mainCtrl.js"></script>
+		<!-- for bootstrap working -->
+		<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+		<!-- //for bootstrap working -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:100i,300,300i,400,400i,500,500i&amp;subset=vietnamese" rel="stylesheet">
+		<!-- template end-->
+
+	</head>
+	<body ng-app="myApp">
+		<div ng-controller="mainCtrl" >
+			<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo"><strong>Projection</strong> by Soldiers</a>
+					<nav id="nav">
+						<a href="index.html">{{pageInfo.home}}</a>
+						<a ng-click="goToSurvey()">{{pageInfo.title}}</a>
+						<a ng-click="switchLang()">{{language}}</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+			<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<header>
+						<h1>{{pageInfo.welcome}}</h1>
+					</header>
+					<div class="flex ">
+						<div>
+							<span class="icon fa-file-signature"></span>
+							<h3>{{pageInfo.completedSurvey}}</h3>
+							<p>54</p>
+						</div>
+
+						<div>
+							<span class="icon fa-file-signature"></span>
+							<h3>{{pageInfo.openingSurvey}}</h3>
+							<p>54</p>
+						</div>
+
+						<div>
+							<span class="icon fa-file-signature"></span>
+							<h3>{{pageInfo.notcompletedSurvey}}</h3>
+							<p>54</p>
+						</div>
+					</div>
+
+					<footer>
+						<a onclick="goToSurvey()" class="button">{{pageInfo.getSurvey}}</a>
+					</footer>
+				</div>
+			</section>
+
+			<!-- introduction -->
+			<section id="three">
+				<div class="inner">
+					<header class="align-center">
+						<h2>Introduction</h2>
+					</header>
+					<p id="p1">{{pageInfo.p1}}</p>
+					<p id="p2">{{pageInfo.p2}}</p>
+					<p id="p3">{{pageInfo.p3}}</p>
+					<p id="p4">{{pageInfo.p4}}</p>
+					<p id="p5">{{pageInfo.p5}}</p>
+				</div>
+			</section>
+			<!-- Create survey form here-->
+			<section id="surveyForm" class="survey">
+				<div class="inner">
+					<header class="align-center">
+						<h2>{{pageInfo.makeYourSurvey}}</h2>
+					</header>
+					<div class="">
+						<!-- Email -->
+						<div class="row">
+							<div class="6u$ 12u$(xsmall)">
+								<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" ng-model="questionaire.email"/>
+							</div>
+						</div>
+						<!-- Question 1, 2 -->
+						<div class="row">
+							<section class="6u 12u$(medium)">
+								<h5>{{test}} {{questionaire.organisation.question1.content}}</h5>
+								<div class="select-wrapper">
+									<select name="demo-category" id="demo-category" ng-model="questionaire.question1.value">
+										<option value="">- {{pageInfo.sectorOfActivity}} -</option>
+										<option value="option.question1.Industry.value">{{option.question1.Industry.content}}</option>
+										<option value="option.question1.Industry.value">{{option.question1.Industry.content}}</option>
+										<option value="option.question1.Business.value">{{option.question1.Business.content}}</option>
+										<option value="option.question1.InformationAndcommunication.value">{{option.question1.InformationAndcommunication.content}}</option>
+										<option value="option.question1.OtherServicesActivity.value">{{option.question1.OtherServicesActivity.content}}</option>
+										<option value="option.question1.AllOtherActivities.value">{{option.question1.AllOtherActivities.content}}</option>
+										<option value="option.question1.Construction.value">{{option.question1.Construction.content}}</option>
+										<option value="option.question1.PublicSector.value">{{option.question1.PublicSector.content}}</option>
+										<option value="option.question1.SpecializedScientificTechnicalAdministrativeSupportServices.value">{{option.question1.SpecializedScientificTechnicalAdministrativeSupportServices.content}}</option>
+										<option value="option.question1.RealEstate.value">{{option.question1.RealEstate.content}}</option>
+									</select>
+								</div>
+							</section>
+							<section class="6u 12u$(medium)">
+								<h5>{{test}} {{questionaire.organisation.question2.content}}</h5>
+								<div class="select-wrapper">
+									<select name="demo-category" id="demo-category" ng-model="questionaire.question2.value">
+										<option value="">- {{pageInfo.numberOfEmployees}}-</option>
+										<option value="option.question2.opt0.value">{{option.question2.opt0.content}}</option>
+										<option value="option.question2.opt1to2.value">{{option.question2.opt1to2.content}}</option>
+										<option value="option.question2.opt3to9.value">{{option.question2.opt3to9.content}}</option>
+										<option value="option.question2.opt10to49.value">{{option.question2.opt10to49.content}}</option>
+										<option value="option.question2.opt50to249.value">{{option.question2.opt50to249.content}}</option>
+										<option value="option.question2.opt250to4999.value">{{option.question2.opt250to4999.content}}</option>
+										<option value="option.question2.Morethan5000.value">{{option.question2.Morethan5000.content}}</option>
+									</select>
+								</div>
+							</section>
+						</div>
+						<!-- Question 3, 4 -->
+						<div class="row">
+							<section class="6u 12u$(medium)">
+								<h5>{{test}} {{questionaire.organisation.question3.content}}</h5>
+								<div class="select-wrapper">
+									<select name="demo-category" id="demo-category" ng-model="questionaire.question3.value">
+										<option value="">- {{pageInfo.turnOver}} -</option>
+										<option value="option.question3.opt0to100K.value">{{option.question3.opt0to100K.content}}</option>
+										<option value="option.question3.opt100to500K.value">{{option.question3.opt100to500K.content}}</option>
+										<option value="option.question3.opt500to2M.value">{{option.question3.opt500to2M.content}}</option>
+										<option value="option.question3.opt2to10M.value">{{option.question3.opt2to10M.content}}</option>
+										<option value="option.question3.opt10to50M.value">{{option.question3.opt10to50M.content}}</option>
+										<option value="option.question3.opt250to4999.value">{{option.question3.opt250to4999.content}}</option>
+										<option value="option.question3.Morethan50M.value">{{option.question3.Morethan50M.content}}</option>
+									</select>
+								</div>
+							</section>
+							<section class="6u 12u$(medium)">
+								<h5>{{test}} {{questionaire.organisation.question4.content}}</h5>
+								<div class="4u 12u$(small)">
+									<input type="radio" id="question4Yes" name="demo-priority" checked>
+									<label for="question4Yes">{{option.YesNo.yes.content}}</label>
+								</div>
+								<div class="4u 12u$(small)">
+									<input type="radio" id="question4No" name="demo-priority">
+									<label for="question4No">{{option.YesNo.no.content}}</label>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+				<footer>
+					<div class="completeButton">
+						<a ng-click="submit()" class="button">{{pageInfo.complete}}</a>
+					</div>
+
+				</footer>
+			</section>
+		</div>
+	</body>
+</html>

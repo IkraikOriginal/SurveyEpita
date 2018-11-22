@@ -6,3 +6,8 @@
 .survey{
     padding-bottom: 4em;
 }
+.completeButton{
+    text-align: center;
+    position: relative;
+    padding: 2em;
+}

@@ -26,5 +26,68 @@
     <li><h1 id="surv">Questionnaire</h1></li>
     <li style="float: right;"><h1><a onclick="switchlang(0)" id="lang">EN</a></h1></li>
 </ul>
+<br>
+<br>
+<br>
+<form>
+    <p class="center">Enter First Primary Key Factor:</p>
+    <label>
+        <input class="center" name="primarykey1" type="text">
+    </label>
+    <p class="center">Enter Second Primary Key Factor:</p>
+    <label>
+        <input class="center" name="primarykey2" type="text">
+    </label>
+    <br><br>
+    <input type="submit" name="Submit" value="Submit">
+    <div id="votre organization">
+        <h1 class="center">Votre Organization</h1>
+        <p class="center">1. Dans quel secteur d'activites votre entreprise est-elle active?(lien avec votre code APE)</p>
+        <label>
+            <select name="secteur">
+                <option value="Null">....Choisez</option>
+                <option value="Industrie">Industrie</option>
+                <option value="Affaires">Affaires</option>
+                <option value="Information/Communication">Information et Communication/option>
+                <option value="Autre activité de services">Autre activité de services</option>
+                <option value="Les autres activities">Toutes les autres activités (activités financières, agricoles ...)</option>
+                <option value="Construction">Construction</option>
+                <option value="Secteur public">Secteur public</option>
+                <option value="Activités spécialisées">Activités spécialisées, scientifiques et techniques ou administratives et services de soutien</option>
+                <option value="Immobilier">Immobilier</option>
+            </select>
+        </label>
+        <p class="center">2. Quel est le nombre d'employés dans votre entreprise le 18/12/31?</p>
+        <label>
+            <select name="nombreemployee">
+                <option value="Null">... Choisez</option>
+                <option value="1 à 2">1 à 2</option>
+                <option value="3 à 9">3 à 9</option>
+                <option value="10 à 49">10 à 49</option>
+                <option value="50 à 249">50 à 249</option>
+                <option value="250 à 4999">250 à 4999</option>
+                <option value="Plus de 5000">Plus de 5000</option>
+            </select>
+        </label>
+        <p class="center">3. Quel est le chiffre d'affaires de votre entreprise au cours du dernier exercice? (ou budget annuel du secteur public)</p>
+        <label>
+            <select name="ChiffreAffaires">
+                <option value="Null">...Choisez</option>
+                <option value="0 à 100K €">0 à 100K €</option>
+                <option value="100K à 500K €">100K à 500K €</option>
+                <option value="500K à 2M €">500K à 2M €</option>
+                <option value="2M à 10M €">2M à 10M €</option>
+                <option value="10M à 50M €">10M à 50M €</option>
+                <option value="Plus de 50M €">Plus de 50M €</option>
+            </select>
+        </label>
+        <p class="center">4. Développez-vous des services numériques à usage interne ou externe (vente aux clients)?</p>
+        <label>
+            <input type="radio" name="Option4" value="Oui">Oui<br>
+        <input type="radio" name="Option4" value="Non">Non<br>
+         </label>
+    </div>
+
+</form>
 </body>
 </html>

@@ -21,15 +21,15 @@
         <mark key="]" line="6" column="2" />
         <mark key="." line="6" column="2" />
       </file>
-      <file name="$USER_HOME$/WebstormProjects/Javascript/function.js" timestamp="1542823880960">
-        <mark key="[" line="26" column="50" />
-        <mark key="]" line="26" column="50" />
-        <mark key="." line="26" column="50" />
+      <file name="$USER_HOME$/WebstormProjects/Javascript/function.js" timestamp="1542896315874">
+        <mark key="[" line="113" column="50" />
+        <mark key="]" line="113" column="50" />
+        <mark key="." line="113" column="50" />
       </file>
-      <file name="$USER_HOME$/WebstormProjects/Javascript/main_fr_en.html" timestamp="1542895082956">
-        <mark key="[" line="260" column="10" />
-        <mark key="]" line="260" column="10" />
-        <mark key="." line="260" column="10" />
+      <file name="$USER_HOME$/WebstormProjects/Javascript/main_fr_en.html" timestamp="1542895408919">
+        <mark key="[" line="204" column="8" />
+        <mark key="]" line="204" column="8" />
+        <mark key="." line="204" column="8" />
       </file>
       <file name="$USER_HOME$/WebstormProjects/Javascript/formatting.css" timestamp="1542889452151">
         <mark key="[" line="84" column="0" />
@@ -43,7 +43,7 @@
         <text encoding="base64">PHNlbGVjdCBuYW1lPSJub21icmVlbXBsb3llZSI+CiAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJOdWxsIj4uLi4gQ2hvaXNlejwvb3B0aW9uPg==</text>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">IGNsYXNzPSJjZW50ZXIiPg==</text>
+        <text encoding="base64">PHA+NzguIFZvcyBpbXByaW1hbnRlcyBzb250LWVsbGVzIGTpZmluaWVzIHBhciBk6WZhdXQgZW4gbW9kZSDpY28/IE5vdGFtbWVudCA6PC9wPg==</text>
       </register>
       <register name="2" type="4">
         <text encoding="base64">ICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgICAgPHRkIHN0eWxlPSJ0ZXh0LWFsaWduOiBsZWZ0Ij48cD4xMC4gRmFpdGVzLXZvdXMgdW5lIHJldnVlIGRlIGNvbmNlcHRpb24g4CBsYSBmaW4gZHUgZOl2ZWxvcHBlbWVudCBkZSB2b3RyZSBhcHBsaWNhdGlvbj88L3A+PC90ZD4KICAgICAgICAgICAgICAgIDx0ZD48bGFiZWw+PGlucHV0IHR5cGU9InJhZGlvIiBuYW1lPSJPcHRpb24xMCIgdmFsdWU9Ik91aSI+PC9sYWJlbD48L3RkPgogICAgICAgICAgICAgICAgPHRkPjxsYWJlbD48aW5wdXQgdHlwZT0icmFkaW8iIG5hbWU9Ik9wdGlvbjEwIiB2YWx1ZT0iTm9uIj48L2xhYmVsPjwvdGQ+CiAgICAgICAgICAgICAgICA8dGQ+PGxhYmVsPjxpbnB1dCB0eXBlPSJyYWRpbyIgbmFtZT0iT3B0aW9uMTAiIHZhbHVlPSJKTkNQIj48L2xhYmVsPjwvdGQ+CiAgICAgICAgICAgIDwvdHI+</text>
@@ -70,7 +70,7 @@
         <text encoding="base64">CiAgICBib3JkZXI6IDNweCBzb2xpZCBncmVlbjs=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IGNsYXNzPSJjZW50ZXIiPg==</text>
+        <text encoding="base64">PHA+NzguIFZvcyBpbXByaW1hbnRlcyBzb250LWVsbGVzIGTpZmluaWVzIHBhciBk6WZhdXQgZW4gbW9kZSDpY28/IE5vdGFtbWVudCA6PC9wPg==</text>
       </register>
     </registers>
     <search>

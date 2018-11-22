@@ -21,15 +21,15 @@
         <mark key="]" line="6" column="2" />
         <mark key="." line="6" column="2" />
       </file>
-      <file name="$USER_HOME$/WebstormProjects/Javascript/function.js" timestamp="1542900136153">
+      <file name="$USER_HOME$/WebstormProjects/Javascript/function.js" timestamp="1542903674092">
         <mark key="[" line="122" column="138" />
         <mark key="]" line="122" column="138" />
         <mark key="." line="122" column="138" />
       </file>
-      <file name="$USER_HOME$/WebstormProjects/Javascript/main_fr_en.html" timestamp="1542899983474">
-        <mark key="[" line="419" column="8" />
-        <mark key="]" line="419" column="8" />
-        <mark key="." line="419" column="8" />
+      <file name="$USER_HOME$/WebstormProjects/Javascript/main_fr_en.html" timestamp="1542905652869">
+        <mark key="[" line="436" column="0" />
+        <mark key="]" line="436" column="12" />
+        <mark key="." line="436" column="12" />
       </file>
       <file name="$USER_HOME$/WebstormProjects/Javascript/formatting.css" timestamp="1542889452151">
         <mark key="[" line="84" column="0" />
@@ -48,12 +48,7 @@
         document.getElementById('Null1').innerHTML=&quot;....Choose</text>
       </register>
       <register name="&quot;" type="4">
-        <text>Tout ce que vous avez à faire est\n&quot; +
-            &quot;    simplement de partager le lien vers le questionnaire.&quot;;
-        document.getElementById('p5').innerHTML = &quot;Merci d'avoir participé à cette enquête. Votre réponse nous est précieuse pour constituer l’échantillon le plus\n&quot; +
-            &quot;    représentatif des entreprises en France.&quot;;
-        document.getElementById('lang').innerHTML=&quot;EN&quot;;
-        document.getElementById('Null1').innerHTML=&quot;....Choose</text>
+        <text />
       </register>
       <register name="2" type="4">
         <text encoding="base64">CiAgICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJzIwJykuaW5uZXJIVE1MPSIiOw==</text>
@@ -80,7 +75,7 @@
         <text encoding="base64">PHAgY2xhc3M9ImNlbnRlciI+RW50ZXIgRmlyc3QgUHJpbWFyeSBLZXkgRmFjdG9yOjwvcD4KICAgIDxsYWJlbD4KICAgICAgICA8aW5wdXQgY2xhc3M9ImNlbnRlciIgbmFtZT0icHJpbWFyeWtleTEiIHR5cGU9InRleHQiPgogICAgPC9sYWJlbD4KICAgIDxwIGNsYXNzPSJjZW50ZXIiPkVudGVyIFNlY29uZCBQcmltYXJ5IEtleSBGYWN0b3I6PC9wPg==</text>
       </register>
       <register name="-" type="4">
-        <text>document.getElementById('Null83').innerHTML=&quot;....Choose&quot;;</text>
+        <text />
       </register>
     </registers>
     <search>

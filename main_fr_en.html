@@ -30,19 +30,10 @@
 <br>
 <br>
 <form>
-    <p class="center">Enter First Primary Key Factor:</p>
-    <label>
-        <input class="center" name="primarykey1" type="text">
-    </label>
-    <p class="center">Enter Second Primary Key Factor:</p>
-    <label>
-        <input class="center" name="primarykey2" type="text">
-    </label>
-    <br><br>
-    <input type="submit" name="Submit" value="Submit">
+    <br>
     <div id="votre organization">
         <h1 class="center">Votre Organization</h1>
-        <p class="center">1. Dans quel secteur d'activites votre entreprise est-elle active?(lien avec votre code APE)</p>
+        <p>1. Dans quel secteur d'activites votre entreprise est-elle active?(lien avec votre code APE)</p>
         <label>
             <select name="secteur">
                 <option value="Null">....Choisez</option>
@@ -57,7 +48,7 @@
                 <option value="Immobilier">Immobilier</option>
             </select>
         </label>
-        <p class="center">2. Quel est le nombre d'employés dans votre entreprise le 18/12/31?</p>
+        <p>2. Quel est le nombre d'employés dans votre entreprise le 18/12/31?</p>
         <label>
             <select name="nombreemployee">
                 <option value="Null">... Choisez</option>
@@ -69,7 +60,7 @@
                 <option value="Plus de 5000">Plus de 5000</option>
             </select>
         </label>
-        <p class="center">3. Quel est le chiffre d'affaires de votre entreprise au cours du dernier exercice? (ou budget annuel du secteur public)</p>
+        <p>3. Quel est le chiffre d'affaires de votre entreprise au cours du dernier exercice? (ou budget annuel du secteur public)</p>
         <label>
             <select name="ChiffreAffaires">
                 <option value="Null">...Choisez</option>
@@ -81,13 +72,106 @@
                 <option value="Plus de 50M €">Plus de 50M €</option>
             </select>
         </label>
-        <p class="center">4. Développez-vous des services numériques à usage interne ou externe (vente aux clients)?</p>
+        <p>4. Développez-vous des services numériques à usage interne ou externe (vente aux clients)?</p>
         <label>
             <input type="radio" name="Option4" value="Oui">Oui<br>
         <input type="radio" name="Option4" value="Non">Non<br>
          </label>
+        <div id="Oui">
+        <p>5. Quel est le nombre d'utilisateurs de vos services numériques?</p>
+        <label>
+            <input type="text" name="5.noutil">
+        </label>
+        <h3>Bonnes pratiques d'écoconception</h3>
+            <table style="width:100%">
+                <tr>
+                    <th><p>Question</p></th>
+                    <th><p>Oui</p></th>
+                    <th><p>Non</p></th>
+                    <th><p>Je ne sais pas</p></th>
+                </tr>
+                <tr>
+                    <td style="text-align: left"><p>6. Appliquez-vous les règles et les meilleures pratiques pour l’accessibilité numérique?</p></td>
+                    <td><label><input type="radio" name="Option6" value="Oui"></label></td>
+                    <td><label><input type="radio" name="Option6" value="Non"></label></td>
+                    <td><label><input type="radio" name="Option6" value="JNCP"></label></td>
+                </tr>
+                <tr>
+                    <td style="text-align: left"><p>7. Avez-vous optimisé les états et les impressions dans vos outils d'application (nombre de pages réduit lors de l'impression, consommation d'encre, etc.)</p></td>
+                    <td><label><input type="radio" name="Option7" value="Oui"></label></td>
+                    <td><label><input type="radio" name="Option7" value="Non"></label></td>
+                    <td><label><input type="radio" name="Option7" value="JNCP"></label></td>
+                </tr>
+                <tr>
+                    <td style="text-align: left"><p>8. Intégrez-vous les principes de l'écoconception des services numériques?</p></td>
+                    <td><label><input type="radio" name="Option8" value="Oui"></label></td>
+                    <td><label><input type="radio" name="Option8" value="Non"></label></td>
+                    <td><label><input type="radio" name="Option8" value="JNCP"></label></td>
+                </tr>
+                <tr>
+                    <td style="text-align: left"><p>9. Utilisez-vous une architecture d’application modulaire?</p></td>
+                    <td><label><input type="radio" name="Option9" value="Oui"></label></td>
+                    <td><label><input type="radio" name="Option9" value="Non"></label></td>
+                    <td><label><input type="radio" name="Option9" value="JNCP"></label></td>
+                </tr>
+                <tr>
+                    <td style="text-align: left"><p>10. Faites-vous une revue de conception à la fin du développement de votre application?</p></td>
+                    <td><label><input type="radio" name="Option10" value="Oui"></label></td>
+                    <td><label><input type="radio" name="Option10" value="Non"></label></td>
+                    <td><label><input type="radio" name="Option10" value="JNCP"></label></td>
+                </tr>
+            </table>
+        </div>
     </div>
+    <div id="La gouvernance GC/ETI">
+        <h1 class="center">La Gouvernance</h1>
+    <p class="center">44. Votre entreprise a-t-elle nommé un responsable informatique vert / responsable numérique?</p>
+        <label>
+            <input type="radio" name="Option44" value="Oui">Oui<br>
+            <input type="radio" name="Option44" value="Non">Non<br>
+            <input type="radio" name="Option44" value="JNCP">Je ne sais pas<br>
+        </label>
+    <p>45. Avez-vous une stratégie numérique responsable déclinée en un plan d’action?</p>
+        <label>
+            <input type="radio" name="Option45" value="Oui">Oui<br>
+            <input type="radio" name="Option45" value="Non">Non<br>
+            <input type="radio" name="Option45" value="JNCP">Je ne sais pas<br>
+        </label>
+    <p>46. ​​L'informatique verte est-elle un sujet intégré à votre stratégie de RSE?</p>
+        <label>
+            <input type="radio" name="Option46" value="Oui">Oui<br>
+            <input type="radio" name="Option46" value="Non">Non<br>
+            <input type="radio" name="Option46" value="JNCP">Je ne sais pas<br>
+        </label>
 
+    <p>47. Evaluez-vous régulièrement les impacts environnementaux de votre système d’information?</p>
+    <label>
+         <input type="radio" name="Option47" value="Oui partiellement, y compris uniquement les équipements présents dans l'entreprise">Oui partiellement, y compris uniquement les équipements présents dans l'entreprise<br>
+         <input type="radio" name="Option47" value="Oui tout à fait, y compris nos équipements et services internes hébergés par des tiers">Oui tout à fait, y compris nos équipements et services internes hébergés par des tiers<br>
+         <input type="radio" name="Option47" value="Non">Non<br>
+         <input type="radio" name="Option47" value="JNCP">Je ne sais pas<br>
+    </label>
+
+
+    <p>48. Avez-vous une équipe d’arbitres compétents sur les thèmes du Green IT?</p>
+    <label>
+        <select name="nombreemployee">
+            <option value="Null">... Choisez</option>
+            <option value="Oui">Oui</option>
+            <option value="No">No</option>
+            <option value="Je ne sais pas">Je ne sais pas</option>
+        </select>
+    </label>
+    <p>49. Avez-vous intégré l'informatique verte dans votre stratégie d'entreprise?</p>
+    <label>
+        <select name="nombreemployee">
+            <option value="Null">... Choisez</option>
+            <option value="Oui">Oui</option>
+            <option value="No">No</option>
+            <option value="Je ne sais pas">Je ne sais pas</option>
+        </select>
+    </label>
+    </div>
 </form>
 </body>
 </html>

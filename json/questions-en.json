@@ -7,8 +7,7 @@
     "value": "",
     "question1": {
       "id": 1,
-      "content-en": "1. In which sector of activity is your company active? (linked with your APE code)?",
-      "content-fr": "1. In which sector of activity is your company active? (linked with your APE code)?",
+      "content": "1. In which sector of activity is your company active? (linked with your APE code)?",
       "value": ""
     },
     "question2": {

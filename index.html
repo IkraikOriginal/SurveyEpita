@@ -107,7 +107,7 @@
 								<h5>{{test}} {{questionaire.organisation.question1.content}}</h5>
 								<div class="select-wrapper">
 									<select name="demo-category" id="demo-category" ng-model="questionaire.question1.value">
-										<option value="">- Category -</option>
+										<option value="">- sector of activity -</option>
 										<option value="option.question1.Industry.value">{{option.question1.Industry.content}}</option>
 										<option value="option.question1.Industry.value">{{option.question1.Industry.content}}</option>
 										<option value="option.question1.Business.value">{{option.question1.Business.content}}</option>
@@ -122,10 +122,10 @@
 								</div>
 							</section>
 							<section class="6u 12u$(medium)">
-								<h5>{{test}} {{questionaire.organisation.question1.content}}</h5>
+								<h5>{{test}} {{questionaire.organisation.question2.content}}</h5>
 								<div class="select-wrapper">
 									<select name="demo-category" id="demo-category" ng-model="questionaire.question2.value">
-										<option value="">- Category -</option>
+										<option value="">- number of employees-</option>
 										<option value="option.question2.opt0.value">{{option.question2.opt0.content}}</option>
 										<option value="option.question2.opt1to2.value">{{option.question2.opt1to2.content}}</option>
 										<option value="option.question2.opt3to9.value">{{option.question2.opt3to9.content}}</option>
@@ -137,39 +137,32 @@
 								</div>
 							</section>
 						</div>
-						<!-- Question 3 -->
+						<!-- Question 3, 4 -->
 						<div class="row">
 							<section class="6u 12u$(medium)">
 								<h5>{{test}} {{questionaire.organisation.question3.content}}</h5>
 								<div class="select-wrapper">
 									<select name="demo-category" id="demo-category" ng-model="questionaire.question3.value">
-										<option value="">- Category -</option>
-										<option value="option.question1.Industry.value">{{option.question1.Industry.content}}</option>
-										<option value="option.question1.Industry.value">{{option.question1.Industry.content}}</option>
-										<option value="option.question1.Business.value">{{option.question1.Business.content}}</option>
-										<option value="option.question1.InformationAndcommunication.value">{{option.question1.InformationAndcommunication.content}}</option>
-										<option value="option.question1.OtherServicesActivity.value">{{option.question1.OtherServicesActivity.content}}</option>
-										<option value="option.question1.AllOtherActivities.value">{{option.question1.AllOtherActivities.content}}</option>
-										<option value="option.question1.Construction.value">{{option.question1.Construction.content}}</option>
-										<option value="option.question1.PublicSector.value">{{option.question1.PublicSector.content}}</option>
-										<option value="option.question1.SpecializedScientificTechnicalAdministrativeSupportServices.value">{{option.question1.SpecializedScientificTechnicalAdministrativeSupportServices.content}}</option>
-										<option value="option.question1.RealEstate.value">{{option.question1.RealEstate.content}}</option>
+										<option value="">- turnover -</option>
+										<option value="option.question3.opt0to100K.value">{{option.question3.opt0to100K.content}}</option>
+										<option value="option.question3.opt100to500K.value">{{option.question3.opt100to500K.content}}</option>
+										<option value="option.question3.opt500to2M.value">{{option.question3.opt500to2M.content}}</option>
+										<option value="option.question3.opt2to10M.value">{{option.question3.opt2to10M.content}}</option>
+										<option value="option.question3.opt10to50M.value">{{option.question3.opt10to50M.content}}</option>
+										<option value="option.question3.opt250to4999.value">{{option.question3.opt250to4999.content}}</option>
+										<option value="option.question3.Morethan50M.value">{{option.question3.Morethan50M.content}}</option>
 									</select>
 								</div>
 							</section>
 							<section class="6u 12u$(medium)">
 								<h5>{{test}} {{questionaire.organisation.question4.content}}</h5>
-								<div class="select-wrapper">
-									<select name="demo-category" id="demo-category" ng-model="questionaire.question4.value">
-										<option value="">- Category -</option>
-										<option value="option.question2.opt0.value">{{option.question2.opt0.content}}</option>
-										<option value="option.question2.opt1to2.value">{{option.question2.opt1to2.content}}</option>
-										<option value="option.question2.opt3to9.value">{{option.question2.opt3to9.content}}</option>
-										<option value="option.question2.opt10to49.value">{{option.question2.opt10to49.content}}</option>
-										<option value="option.question2.opt50to249.value">{{option.question2.opt50to249.content}}</option>
-										<option value="option.question2.opt250to4999.value">{{option.question2.opt250to4999.content}}</option>
-										<option value="option.question2.Morethan5000.value">{{option.question2.Morethan5000.content}}</option>
-									</select>
+								<div class="4u 12u$(small)">
+									<input type="radio" id="question4Yes" name="demo-priority" checked>
+									<label for="question4Yes">{{option.YesNo.yes.content}}</label>
+								</div>
+								<div class="4u 12u$(small)">
+									<input type="radio" id="question4No" name="demo-priority">
+									<label for="question4No">{{option.YesNo.no.content}}</label>
 								</div>
 							</section>
 						</div>

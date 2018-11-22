@@ -95,14 +95,16 @@
 						<h2>{{pageInfo.MakeYourSurvey}}</h2>
 					</header>
 					<div class="">
+						<!-- Email -->
 						<div class="row">
 							<div class="6u$ 12u$(xsmall)">
 								<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" ng-model="questionaire.email"/>
 							</div>
 						</div>
+						<!-- Question 1, 2 -->
 						<div class="row">
 							<section class="6u 12u$(medium)">
-								<h2>{{test}} {{questionaire.organisation.question1.content}}</h2>
+								<h5>{{test}} {{questionaire.organisation.question1.content}}</h5>
 								<div class="select-wrapper">
 									<select name="demo-category" id="demo-category" ng-model="questionaire.question1.value">
 										<option value="">- Category -</option>
@@ -119,7 +121,23 @@
 									</select>
 								</div>
 							</section>
+							<section class="6u 12u$(medium)">
+								<h5>{{test}} {{questionaire.organisation.question1.content}}</h5>
+								<div class="select-wrapper">
+									<select name="demo-category" id="demo-category" ng-model="questionaire.question2.value">
+										<option value="">- Category -</option>
+										<option value="option.question2.opt0.value">{{option.question2.opt0.content}}</option>
+										<option value="option.question2.opt1to2.value">{{option.question2.opt1to2.content}}</option>
+										<option value="option.question2.opt3to9.value">{{option.question2.opt3to9.content}}</option>
+										<option value="option.question2.opt10to49.value">{{option.question2.opt10to49.content}}</option>
+										<option value="option.question2.opt50to249.value">{{option.question2.opt50to249.content}}</option>
+										<option value="option.question2.opt250to4999.value">{{option.question2.opt250to4999.content}}</option>
+										<option value="option.question2.Morethan5000.value">{{option.question2.Morethan5000.content}}</option>
+									</select>
+								</div>
+							</section>
 						</div>
+						<!-- Question 1 -->
 					</div>
 				</div>
 				<footer>

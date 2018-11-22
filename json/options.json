@@ -1,0 +1,64 @@
+{
+  "question1": {
+    "Industry": {
+      "content": "Industry",
+      "value": "Industry"
+    },
+    "Business": {
+      "content": "Business",
+      "value": "Business"
+    },
+    "InformationAndcommunication": {
+      "content": "Information and communication",
+      "value": "InfoCom"
+    },
+    "OtherServicesActivity": {
+      "content": "Other services activity",
+      "value": "OtherServicesActivity"
+    },
+    "AllOtherActivities": {
+      "content": "All other activities (financial, agricultural activities ...)",
+      "value": "allOther"
+    },
+    "Construction": {
+      "content": "Construction",
+      "value": "Construction"
+    },
+    "PublicSector": {
+      "content": "Public sector",
+      "value": "PublicSector"
+    },
+    "SpecializedScientificTechnicalAdministrativeSupportServices": {
+      "content": "Specialized, Scientific and Technical or Administrative and Support Services Activities",
+      "value": "SpecializedScientificTechnicalAdministrativeSupportServices"
+    },
+    "RealEstate": {
+      "content": "Real Estate",
+      "value": "RealEstate"
+    }
+  },
+  "YesNo": {
+    "yes": {
+      "content": "Yes",
+      "value": "true"
+    },
+    "no": {
+      "content": "No",
+      "value": "false"
+    }
+  },
+  "YesNoUnknow": {
+    "yes": {
+      "content": "Yes",
+      "value": "true"
+    },
+    "no": {
+      "content": "No",
+      "value": "false"
+    },
+    "noAnswer": {
+      "content": "I do not want to answer",
+      "value": "noAnswer"
+    }
+  }
+}

@@ -11,9 +11,11 @@
 
 		<!-- //main css -->
 		<link rel="stylesheet" href="assets/css/main.css" type="text/css"/>
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
 
 		<!-- //js -->
 		<!-- Scripts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/skel.min.js"></script>
 		<script src="assets/js/util.js"></script>
@@ -26,76 +28,108 @@
 		<!-- template end-->
 
 	</head>
-	<body>
-		<!-- Header -->
-		<header id="header">
-			<div class="inner">
-				<a href="index.html" class="logo"><strong>Projection</strong> by Soldiers</a>
-				<nav id="nav">
-					<a href="index.html">Home</a>
-					<a href="questionnaire.html">Questionnaire</a>
-					<a onclick="switchlang(0)">EN</a>
-				</nav>
-				<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-			</div>
-		</header>
-
-		<!-- Banner -->
-		<section id="banner">
-			<div class="inner">
-				<header>
-					<h1>Welcome to Green4Challenge Survey</h1>
-				</header>
-
-				<div class="flex ">
-
-					<div>
-						<span class="icon fa-car"></span>
-						<h3>Completed Survey</h3>
-						<p>54</p>
-					</div>
-
-					<div>
-						<span class="icon fa-camera"></span>
-						<h3>Opening Survey</h3>
-						<p>54</p>
-					</div>
-
-					<div>
-						<span class="icon fa-bug"></span>
-						<h3>Not completed Survey</h3>
-						<p>54</p>
-					</div>
-
+	<body ng-app="myApp">
+		<div ng-controller="mainCtrl" >
+			<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo"><strong>Projection</strong> by Soldiers</a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a onclick="goToSurvey()">Questionnaire</a>
+						<a onclick="switchlang(0)">EN</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 				</div>
+			</header>
 
-				<footer>
-					<a href="questionnaire.html" class="button">Get Survey</a>
-				</footer>
-			</div>
-		</section>
+			<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<header>
+						<h1>Welcome to Green4Challenge Survey</h1>
+					</header>
+					<div class="flex ">
+						<div>
+							<span class="icon fa-car"></span>
+							<h3>Completed Survey</h3>
+							<p>54</p>
+						</div>
 
-		<!-- introduction -->
-		<section id="three" class="wrapper">
-			<div class="inner">
-				<header class="align-center">
-					<h2>Introduction</h2>
-				</header>
-				<p id="p1">Avec le soutien de l'ADEME, du Ministère de l'écologie, de l'énergie et de la mer et du Ministère de l'économie et
-					des finances, de l'association AGIT (Alliance for Green IT) et des éco-organisations du réseau de recyclage des déchets
-					d'équipements électriques et électroniques (DEEE) organiser une enquête pour évaluer les dépôts d'équipements informatiques
-					et bureautiques présents dans les entreprises et plus généralement sur la maturité des entreprises en France dans
-					l'utilisation de services numériques éco-responsables.</p>
-				<p id="p2">1. La durée du questionnaire est estimée à 15 minutes si vous êtes capable de répondre directement à des questions.</p>
-				<p id="p3">2. Vous pouvez revenir à tout moment sur le questionnaire, répondre en plusieurs fois, vos réponses précédentes sont enregistrées.
-					En cas de modification, seule la dernière réponse sera prise en compte.</p>
-				<p id="p4">3. Vous pouvez soumettre ce questionnaire à plusieurs personnes de votre organisation. Tout ce que vous avez à faire est
-					simplement de partager le lien vers le questionnaire.</p>
-				<p id="p5">Merci d'avoir participé à cette enquête. Votre réponse nous est précieuse pour constituer l’échantillon le plus
-					représentatif des entreprises en France.</p>
+						<div>
+							<span class="icon fa-camera"></span>
+							<h3>Opening Survey</h3>
+							<p>54</p>
+						</div>
 
+						<div>
+							<span class="icon fa-bug"></span>
+							<h3>Not completed Survey</h3>
+							<p>54</p>
+						</div>
+					</div>
 
-			</div>
-		</section>
+					<footer>
+						<a onclick="goToSurvey()" class="button">Get Survey</a>
+					</footer>
+				</div>
+			</section>
+
+			<!-- introduction -->
+			<section id="three">
+				<div class="inner">
+					<header class="align-center">
+						<h2>Introduction</h2>
+					</header>
+					<p id="p1">Avec le soutien de l'ADEME, du Ministère de l'écologie, de l'énergie et de la mer et du Ministère de l'économie et
+						des finances, de l'association AGIT (Alliance for Green IT) et des éco-organisations du réseau de recyclage des déchets
+						d'équipements électriques et électroniques (DEEE) organiser une enquête pour évaluer les dépôts d'équipements informatiques
+						et bureautiques présents dans les entreprises et plus généralement sur la maturité des entreprises en France dans
+						l'utilisation de services numériques éco-responsables.</p>
+					<p id="p2">1. La durée du questionnaire est estimée à 15 minutes si vous êtes capable de répondre directement à des questions.</p>
+					<p id="p3">2. Vous pouvez revenir à tout moment sur le questionnaire, répondre en plusieurs fois, vos réponses précédentes sont enregistrées.
+						En cas de modification, seule la dernière réponse sera prise en compte.</p>
+					<p id="p4">3. Vous pouvez soumettre ce questionnaire à plusieurs personnes de votre organisation. Tout ce que vous avez à faire est
+						simplement de partager le lien vers le questionnaire.</p>
+					<p id="p5">Merci d'avoir participé à cette enquête. Votre réponse nous est précieuse pour constituer l’échantillon le plus
+						représentatif des entreprises en France.</p>
+				</div>
+			</section>
+			<!-- Create survey form here-->
+			<section id="surveyForm" class="survey">
+				<div class="inner">
+					<header class="align-center">
+						<h2>Make your Survey</h2>
+					</header>
+					<div class="">
+						<div class="row">
+							<div class="6u$ 12u$(xsmall)">
+								<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" ng-model="questionaire.email"/>
+							</div>
+						</div>
+						<div class="row">
+							<section class="6u 12u$(medium)">
+								<h2>{{test}} {{questionaire.organisation.question1.content}}</h2>
+								<div class="select-wrapper">
+									<select name="demo-category" id="demo-category" ng-model="questionaire.question1.value">
+										<option value="">- Category -</option>
+										<option value="option.question1.Industry.value">{{option.question1.Industry.content}}</option>
+										<option value="option.question1.Industry.value">{{option.question1.Industry.content}}</option>
+										<option value="option.question1.Business.value">{{option.question1.Business.content}}</option>
+										<option value="option.question1.InformationAndcommunication.value">{{option.question1.InformationAndcommunication.content}}</option>
+										<option value="option.question1.OtherServicesActivity.value">{{option.question1.OtherServicesActivity.content}}</option>
+										<option value="option.question1.AllOtherActivities.value">{{option.question1.AllOtherActivities.content}}</option>
+										<option value="option.question1.Construction.value">{{option.question1.Construction.content}}</option>
+										<option value="option.question1.PublicSector.value">{{option.question1.PublicSector.content}}</option>
+										<option value="option.question1.SpecializedScientificTechnicalAdministrativeSupportServices.value">{{option.question1.SpecializedScientificTechnicalAdministrativeSupportServices.content}}</option>
+										<option value="option.question1.RealEstate.value">{{option.question1.RealEstate.content}}</option>
+									</select>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
 	</body>
 </html>

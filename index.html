@@ -35,7 +35,7 @@
 				<div class="inner">
 					<a href="index.html" class="logo"><strong>Projection</strong> by Soldiers</a>
 					<nav id="nav">
-						<a href="index.html">Home</a>
+						<a href="index.html">{{pageInfo.home}}</a>
 						<a ng-click="goToSurvey()">{{pageInfo.title}}</a>
 						<a ng-click="switchLang()">{{language}}</a>
 					</nav>
@@ -52,25 +52,25 @@
 					<div class="flex ">
 						<div>
 							<span class="icon fa-file-signature"></span>
-							<h3>Completed Survey</h3>
+							<h3>{{pageInfo.completedSurvey}}</h3>
 							<p>54</p>
 						</div>
 
 						<div>
 							<span class="icon fa-file-signature"></span>
-							<h3>Opening Survey</h3>
+							<h3>{{pageInfo.openingSurvey}}</h3>
 							<p>54</p>
 						</div>
 
 						<div>
 							<span class="icon fa-file-signature"></span>
-							<h3>Not completed Survey</h3>
+							<h3>{{pageInfo.notcompletedSurvey}}</h3>
 							<p>54</p>
 						</div>
 					</div>
 
 					<footer>
-						<a onclick="goToSurvey()" class="button">Get Survey</a>
+						<a onclick="goToSurvey()" class="button">{{pageInfo.getSurvey}}</a>
 					</footer>
 				</div>
 			</section>
@@ -92,7 +92,7 @@
 			<section id="surveyForm" class="survey">
 				<div class="inner">
 					<header class="align-center">
-						<h2>{{pageInfo.MakeYourSurvey}}</h2>
+						<h2>{{pageInfo.makeYourSurvey}}</h2>
 					</header>
 					<div class="">
 						<!-- Email -->
@@ -107,7 +107,7 @@
 								<h5>{{test}} {{questionaire.organisation.question1.content}}</h5>
 								<div class="select-wrapper">
 									<select name="demo-category" id="demo-category" ng-model="questionaire.question1.value">
-										<option value="">- sector of activity -</option>
+										<option value="">- {{pageInfo.sectorOfActivity}} -</option>
 										<option value="option.question1.Industry.value">{{option.question1.Industry.content}}</option>
 										<option value="option.question1.Industry.value">{{option.question1.Industry.content}}</option>
 										<option value="option.question1.Business.value">{{option.question1.Business.content}}</option>
@@ -125,7 +125,7 @@
 								<h5>{{test}} {{questionaire.organisation.question2.content}}</h5>
 								<div class="select-wrapper">
 									<select name="demo-category" id="demo-category" ng-model="questionaire.question2.value">
-										<option value="">- number of employees-</option>
+										<option value="">- {{pageInfo.numberOfEmployees}}-</option>
 										<option value="option.question2.opt0.value">{{option.question2.opt0.content}}</option>
 										<option value="option.question2.opt1to2.value">{{option.question2.opt1to2.content}}</option>
 										<option value="option.question2.opt3to9.value">{{option.question2.opt3to9.content}}</option>
@@ -143,7 +143,7 @@
 								<h5>{{test}} {{questionaire.organisation.question3.content}}</h5>
 								<div class="select-wrapper">
 									<select name="demo-category" id="demo-category" ng-model="questionaire.question3.value">
-										<option value="">- turnover -</option>
+										<option value="">- {{pageInfo.turnOver}} -</option>
 										<option value="option.question3.opt0to100K.value">{{option.question3.opt0to100K.content}}</option>
 										<option value="option.question3.opt100to500K.value">{{option.question3.opt100to500K.content}}</option>
 										<option value="option.question3.opt500to2M.value">{{option.question3.opt500to2M.content}}</option>
@@ -170,7 +170,7 @@
 				</div>
 				<footer>
 					<div class="completeButton">
-						<a ng-click="submit()" class="button">Complete!</a>
+						<a ng-click="submit()" class="button">{{pageInfo.complete}}</a>
 					</div>
 
 				</footer>

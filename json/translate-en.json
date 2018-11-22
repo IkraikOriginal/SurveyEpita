@@ -7,5 +7,16 @@
   "surv": "Survey",
   "title": "The Survey",
   "welcome": "Welcome to Green4Challenge Survey",
-  "MakeYourSurvey": "Make your Survey"
+  "makeYourSurvey": "Make your Survey",
+  "completedSurvey": "Completed Survey",
+  "openingSurvey": "Opening Survey",
+  "notcompletedSurvey": "Not completed Survey",
+  "getSurvey": "Get Survey",
+  "introduction": "Introduction",
+  "complete": "Complete",
+  "home": "Home",
+  "email": "Email",
+  "sectorOfActivity": "Sector Of Activity",
+  "numberOfEmployees":"Number Of Employees",
+  "turnOver": "Turn Over"
 }

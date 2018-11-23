@@ -104,9 +104,9 @@
 						<!-- Question 1, 2 -->
 						<div class="row">
 							<section class="6u 12u$(medium)">
-								<h5>{{test}} {{questionaire.organisation.question1.content}}</h5>
+								<h5>{{questionaire.yourCompany.question1.content}}</h5>
 								<div class="select-wrapper">
-									<select name="demo-category" id="demo-category" ng-model="questionaire.question1.value">
+									<select name="demo-category" id="demo-category" ng-model="questionaire.yourCompany.question1.value">
 										<option value="">- {{pageInfo.sectorOfActivity}} -</option>
 										<option value="option.question1.Industry.value">{{option.question1.Industry.content}}</option>
 										<option value="option.question1.Industry.value">{{option.question1.Industry.content}}</option>
@@ -122,9 +122,9 @@
 								</div>
 							</section>
 							<section class="6u 12u$(medium)">
-								<h5>{{test}} {{questionaire.organisation.question2.content}}</h5>
+								<h5>{{questionaire.yourCompany.question2.content}}</h5>
 								<div class="select-wrapper">
-									<select name="demo-category" id="demo-category" ng-model="questionaire.question2.value">
+									<select name="demo-category" id="demo-category" ng-model="questionaire.yourCompany.question2.value">
 										<option value="">- {{pageInfo.numberOfEmployees}}-</option>
 										<option value="option.question2.opt0.value">{{option.question2.opt0.content}}</option>
 										<option value="option.question2.opt1to2.value">{{option.question2.opt1to2.content}}</option>
@@ -140,9 +140,9 @@
 						<!-- Question 3, 4 -->
 						<div class="row">
 							<section class="6u 12u$(medium)">
-								<h5>{{test}} {{questionaire.organisation.question3.content}}</h5>
+								<h5>{{questionaire.yourCompany.question3.content}}</h5>
 								<div class="select-wrapper">
-									<select name="demo-category" id="demo-category" ng-model="questionaire.question3.value">
+									<select name="demo-category" id="demo-category" ng-model="questionaire.yourCompany.question3.value">
 										<option value="">- {{pageInfo.turnOver}} -</option>
 										<option value="option.question3.opt0to100K.value">{{option.question3.opt0to100K.content}}</option>
 										<option value="option.question3.opt100to500K.value">{{option.question3.opt100to500K.content}}</option>
@@ -155,7 +155,7 @@
 								</div>
 							</section>
 							<section class="6u 12u$(medium)">
-								<h5>{{test}} {{questionaire.organisation.question4.content}}</h5>
+								<h5>{{questionaire.yourCompany.question4.content}}</h5>
 								<div class="4u 12u$(small)">
 									<input type="radio" id="question4Yes" name="demo-priority" checked>
 									<label for="question4Yes">{{option.YesNo.yes.content}}</label>
@@ -166,11 +166,694 @@
 								</div>
 							</section>
 						</div>
+
+						<!-- Question 5 to 10 -->
+						<h5 id="question5">{{questionaire.yourCompany.question5.content}}</h5>
+						<div class="table-wrapper">
+							<table>
+								<thead>
+								<tr>
+									<th>Question</th>
+									<th>{{option.YesNoUnknow.yes.content}}</th>
+									<th>{{option.YesNoUnknow.no.content}}</th>
+									<th>{{option.YesNoUnknow.dontKnow.content}}</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr id="question6">
+									<td>{{questionaire.yourCompany.question6.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question6Yes" name="demo-priority" checked>
+											<label for="question6Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question6No" name="demo-priority">
+											<label for="question6No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question6DontKnow" name="demo-priority" checked>
+											<label for="question6DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr id="question7">
+									<td>{{questionaire.yourCompany.question7.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question7Yes" name="demo-priority" checked>
+											<label for="question7Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question7No" name="demo-priority">
+											<label for="question7No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question7DontKnow" name="demo-priority" checked>
+											<label for="question7DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr id="question8">
+									<td>{{questionaire.yourCompany.question8.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question8Yes" name="demo-priority" checked>
+											<label for="question8Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question8No" name="demo-priority">
+											<label for="question8No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question8DontKnow" name="demo-priority" checked>
+											<label for="question8DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr id="question9">
+									<td>{{questionaire.yourCompany.question9.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question9Yes" name="demo-priority" checked>
+											<label for="question9Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question9No" name="demo-priority">
+											<label for="question9No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question9DontKnow" name="demo-priority" checked>
+											<label for="question9DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr id="question10">
+									<td>{{questionaire.yourCompany.question10.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question10Yes" name="demo-priority" checked>
+											<label for="question10Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question10No" name="demo-priority">
+											<label for="question10No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question10DontKnow" name="demo-priority" checked>
+											<label for="question6DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<!-- Question 11 -->
+						<div id="question11" class="row">
+							<section class="6u 12u$(medium)">
+								<h5>{{questionaire.informationSystem.question11.content}}</h5>
+								<div class="12u$(small)">
+									<input type="radio" id="question11Yes" name="demo-priority" checked>
+									<label for="question4Yes">{{option.YesNoUnknow.dontKnow.content}}</label>
+								</div>
+								<div class="12u$(small)">
+									<input type="radio" id="question11No" name="demo-priority">
+									<label for="question4No">{{option.YesNoUnknow.noAnswer.content}}</label>
+								</div>
+							</section>
+							<section class="6u 12u$(medium)">
+								<div class="12u$">
+									<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+								</div>
+							</section>
+						</div>
+						<!-- Question 12, 13 -->
+						<div class="row">
+							<section id="question12" class="6u 12u$(medium)">
+								<h5>{{questionaire.informationSystem.question12.content}}</h5>
+								<div class="12u$(small)">
+									<input type="radio" id="question12WeWorkWithWorkstation" name="demo-priority" checked>
+									<label for="question12WeWorkWithWorkstation">{{option.question12.WeWorkWithWorkstation.content}}</label>
+								</div>
+								<div class="12u$(small)">
+									<input type="radio" id="question12centralizedServer" name="demo-priority">
+									<label for="question12centralizedServer">{{option.question12.centralizedServer.content}}</label>
+								</div>
+							</section>
+							<section id="question13" class="6u 12u$(medium)">
+								<h5>{{questionaire.informationSystem.question13.content}}</h5>
+								<div class="12u$(small)">
+									<input type="radio" id="question13RoomWithoutSystem" name="demo-priority" checked>
+									<label for="question13RoomWithoutSystem">{{option.question13.RoomWithoutSystem.content}}</label>
+								</div>
+								<div class="12u$(small)">
+									<input type="radio" id="question13DedicatedRoom" name="demo-priority">
+									<label for="question13DedicatedRoom">{{option.question13.DedicatedRoom.content}}</label>
+								</div>
+							</section>
+						</div>
+						<!-- Question 14, 15 -->
+						<div class="row">
+							<section id="question14" class="6u 12u$(medium)">
+							<h5>{{questionaire.infrastructure.serverComputeRoom.question14.content}}</h5>
+							<div class="12u$(small)">
+								<input type="radio" id="question14Internal" name="demo-priority" checked>
+								<label for="question14Internal">{{option.question14.Internal.content}}</label>
+							</div>
+							<div class="12u$(small)">
+								<input type="radio" id="question14HostEuropeanCodeOfConduct" name="demo-priority">
+								<label for="question14HostEuropeanCodeOfConduct">{{option.question14.HostEuropeanCodeOfConduct.content}}</label>
+							</div>
+							<div class="12u$(small)">
+								<input type="radio" id="question14NonHostEuropeanCodeOfConduct" name="demo-priority" checked>
+								<label for="question14NonHostEuropeanCodeOfConduct">{{option.question14.NonHostEuropeanCodeOfConduct.content}}</label>
+							</div>
+						</section>
+						<section id="question15" class="6u 12u$(medium)">
+							<h5>{{questionaire.infrastructure.serverComputeRoom.question15.content}}</h5>
+							<div class="6u$ 12u$(xsmall)">
+								<input type="text" name="question15text" id="question15text" value="" placeholder="m2" ng-model="questionaire.infrastructure.serverComputeRoom.question15.comment"/>
+							</div>
+							<div class="12u$(small)">
+								<input type="radio" id="question15dontKnow" name="demo-priority">
+								<label for="question15dontKnow">{{option.YesNoUnknow.dontKnow.content}}</label>
+							</div>
+							<div class="12u$(small)">
+								<input type="radio" id="question15NoAnswer" name="demo-priority" checked>
+								<label for="question15NoAnswer">{{option.YesNoUnknow.noAnswer.content}}</label>
+							</div>
+						</section>
+						</div>
+						<!-- Question 16, 17 -->
+						<div class="row">
+							<section id="question16" class="6u 12u$(medium)">
+								<h5>{{questionaire.infrastructure.serverComputeRoom.question16.content}}</h5>
+								<h5><i>{{questionaire.infrastructure.serverComputeRoom.question16.description}}</i></h5>
+								<div class="12u$(small)">
+									<input type="radio" id="question16LessThan16" name="demo-priority" checked>
+									<label for="question16LessThan16">{{option.question16.LessThan16.content}}</label>
+								</div>
+								<div class="12u$(small)">
+									<input type="radio" id="question16Between16and21" name="demo-priority">
+									<label for="question16Between16and21">{{option.question16.Between16and21.content}}</label>
+								</div>
+								<div class="12u$(small)">
+									<input type="radio" id="question16MoreThan21" name="demo-priority" checked>
+									<label for="question16MoreThan21">{{option.question16.MoreThan21.content}}</label>
+								</div>
+								<div class="12u$(small)">
+									<input type="radio" id="question16IdontKnow" name="demo-priority" checked>
+									<label for="question16IdontKnow">{{option.question16.IdontKnow.content}}</label>
+								</div>
+							</section>
+							<section id="question17" class="6u 12u$(medium)">
+								<h5>{{questionaire.infrastructure.serverComputeRoom.question17.content}}</h5>
+								<h5><i>{{questionaire.infrastructure.serverComputeRoom.question17.description}}</i></h5>
+								<div class="12u$(small)">
+									<input type="radio" id="question17opt100to90" name="demo-priority" checked>
+									<label for="question17opt100to90">{{option.question17.opt100to90.content}}</label>
+								</div>
+								<div class="12u$(small)">
+									<input type="radio" id="question17opt90to60" name="demo-priority">
+									<label for="question17opt90to60">{{option.question17.opt90to60.content}}</label>
+								</div>
+								<div class="12u$(small)">
+									<input type="radio" id="question17Lessthan60" name="demo-priority" checked>
+									<label for="question17Lessthan60">{{option.question17.Lessthan60.content}}</label>
+								</div>
+								<div class="12u$(small)">
+									<input type="radio" id="question17IdontKnow" name="demo-priority" checked>
+									<label for="question17IdontKnow">{{option.question17.IdontKnow.content}}</label>
+								</div>
+							</section>
+						</div>
+						<!-- Question 18 to 30 -->
+						<h5>{{questionaire.infrastructure.serverComputeRoom.question18.content}}</h5>
+						<div class="table-wrapper">
+							<table>
+								<thead>
+								<tr>
+									<th>Question</th>
+									<th>{{option.YesNoUnknow.yes.content}}</th>
+									<th>{{option.YesNoUnknow.no.content}}</th>
+									<th>{{option.YesNoUnknow.dontKnow.content}}</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+									<td>{{questionaire.infrastructure.serverComputeRoom.question19.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question19Yes" name="demo-priority" checked>
+											<label for="question19Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question19No" name="demo-priority">
+											<label for="question19No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question19DontKnow" name="demo-priority" checked>
+											<label for="question19DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>{{questionaire.infrastructure.serverComputeRoom.question20.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question20Yes" name="demo-priority" checked>
+											<label for="question20Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question20No" name="demo-priority">
+											<label for="question20No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question20DontKnow" name="demo-priority" checked>
+											<label for="question20DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>{{questionaire.infrastructure.serverComputeRoom.question21.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question21Yes" name="demo-priority" checked>
+											<label for="question21Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question21No" name="demo-priority">
+											<label for="question21No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question21DontKnow" name="demo-priority" checked>
+											<label for="question21DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>{{questionaire.infrastructure.serverComputeRoom.question22.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question22Yes" name="demo-priority" checked>
+											<label for="question22Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="questio22No" name="demo-priority">
+											<label for="questio22No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question22DontKnow" name="demo-priority" checked>
+											<label for="question22DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>{{questionaire.infrastructure.serverComputeRoom.question23.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question23Yes" name="demo-priority" checked>
+											<label for="question23Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question23No" name="demo-priority">
+											<label for="question23No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question23DontKnow" name="demo-priority" checked>
+											<label for="question23DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>{{questionaire.infrastructure.serverComputeRoom.question24.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question24Yes" name="demo-priority" checked>
+											<label for="question24Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question24No" name="demo-priority">
+											<label for="question24No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question24DontKnow" name="demo-priority" checked>
+											<label for="question24DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>{{questionaire.infrastructure.serverComputeRoom.question25.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question25Yes" name="demo-priority" checked>
+											<label for="question25Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question25No" name="demo-priority">
+											<label for="question25No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question25DontKnow" name="demo-priority" checked>
+											<label for="question25DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>{{questionaire.infrastructure.serverComputeRoom.question26.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question26Yes" name="demo-priority" checked>
+											<label for="question26Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question26No" name="demo-priority">
+											<label for="question26No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question26DontKnow" name="demo-priority" checked>
+											<label for="question26DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>{{questionaire.infrastructure.serverComputeRoom.question27.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question27Yes" name="demo-priority" checked>
+											<label for="question27Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question27No" name="demo-priority">
+											<label for="question27No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question27DontKnow" name="demo-priority" checked>
+											<label for="question27DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>{{questionaire.infrastructure.serverComputeRoom.question28.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question28Yes" name="demo-priority" checked>
+											<label for="question28Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question28No" name="demo-priority">
+											<label for="question28No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question28DontKnow" name="demo-priority" checked>
+											<label for="question28DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>{{questionaire.infrastructure.serverComputeRoom.question29.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question29Yes" name="demo-priority" checked>
+											<label for="question29Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question29No" name="demo-priority">
+											<label for="question29No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question29DontKnow" name="demo-priority" checked>
+											<label for="question29DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>{{questionaire.infrastructure.serverComputeRoom.question30.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question30Yes" name="demo-priority" checked>
+											<label for="question30Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question30No" name="demo-priority">
+											<label for="question30No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question30DontKnow" name="demo-priority" checked>
+											<label for="question30DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- Question 31 to 38 -->
+						<h5>{{questionaire.infrastructure.serverAcuboardDelicatedRoom.question31.content}}</h5>
+						<div class="table-wrapper">
+							<table>
+								<thead>
+								<tr>
+									<th>Question</th>
+									<th>{{option.YesNoUnknow.yes.content}}</th>
+									<th>{{option.YesNoUnknow.no.content}}</th>
+									<th>{{option.YesNoUnknow.dontKnow.content}}</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+									<td>{{questionaire.infrastructure.serverAcuboardDelicatedRoom.question32.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question32Yes" name="demo-priority" checked>
+											<label for="question32Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question32No" name="demo-priority">
+											<label for="question32No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question32DontKnow" name="demo-priority" checked>
+											<label for="question32DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>{{questionaire.infrastructure.serverAcuboardDelicatedRoom.question33.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question33Yes" name="demo-priority" checked>
+											<label for="question33Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question33No" name="demo-priority">
+											<label for="question33No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question33DontKnow" name="demo-priority" checked>
+											<label for="question33DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>{{questionaire.infrastructure.serverAcuboardDelicatedRoom.question34.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question34Yes" name="demo-priority" checked>
+											<label for="question34Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question34No" name="demo-priority">
+											<label for="question34No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question34DontKnow" name="demo-priority" checked>
+											<label for="question34DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>{{questionaire.infrastructure.serverAcuboardDelicatedRoom.question35.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question35Yes" name="demo-priority" checked>
+											<label for="question35Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="questio35No" name="demo-priority">
+											<label for="questio35No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question35DontKnow" name="demo-priority" checked>
+											<label for="question35DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>{{questionaire.infrastructure.serverAcuboardDelicatedRoom.question36.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question36Yes" name="demo-priority" checked>
+											<label for="question36Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question36No" name="demo-priority">
+											<label for="question36No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question36DontKnow" name="demo-priority" checked>
+											<label for="question36DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>{{questionaire.infrastructure.serverAcuboardDelicatedRoom.question37.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question37Yes" name="demo-priority" checked>
+											<label for="question37Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question37No" name="demo-priority">
+											<label for="question37No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question37DontKnow" name="demo-priority" checked>
+											<label for="question37DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>{{questionaire.infrastructure.serverAcuboardDelicatedRoom.question38.content}}</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question38Yes" name="demo-priority" checked>
+											<label for="question38Yes"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question38No" name="demo-priority">
+											<label for="question38No"></label>
+										</div>
+									</td>
+									<td>
+										<div class="4u 12u$(small)">
+											<input type="radio" id="question38DontKnow" name="demo-priority" checked>
+											<label for="question38DontKnow"></label>
+										</div>
+									</td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- Question 39 -->
+						<!-- Question 40 -->
+						<!-- Question 41 -->
+						<!-- Question 42 -->
+
+						<!-- Question 41 -->
+						<!-- Question 70 to 73 -->
+						<!-- Question 74 to 82 -->
+						<!-- Question 83 to 88 -->
 					</div>
 				</div>
 				<footer>
 					<div class="completeButton">
 						<a ng-click="submit()" class="button">{{pageInfo.complete}}</a>
+						<a ng-click="share()" class="button">{{pageInfo.share}}</a>
 					</div>
 
 				</footer>

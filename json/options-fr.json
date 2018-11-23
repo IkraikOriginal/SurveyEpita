@@ -1,7 +1,7 @@
 {
   "question1": {
     "Industry": {
-      "content": "Industry",
+      "content": "Industrie",
       "value": "Industry"
     },
     "Business": {
@@ -9,15 +9,15 @@
       "value": "Business"
     },
     "InformationAndcommunication": {
-      "content": "Information and communication",
+      "content": "Information & communication",
       "value": "InfoCom"
     },
     "OtherServicesActivity": {
-      "content": "Other services activity",
+      "content": "Autre activité de services",
       "value": "OtherServicesActivity"
     },
     "AllOtherActivities": {
-      "content": "All other activities (financial, agricultural activities ...)",
+      "content": "Toutes les autres activités (activités financières, agricoles ...)",
       "value": "allOther"
     },
     "Construction": {
@@ -25,15 +25,15 @@
       "value": "Construction"
     },
     "PublicSector": {
-      "content": "Public sector",
+      "content": "Secteur Publique",
       "value": "PublicSector"
     },
     "SpecializedScientificTechnicalAdministrativeSupportServices": {
-      "content": "Specialized, Scientific and Technical or Administrative and Support Services Activities",
+      "content": "Activités Spécialisées, Scientifiques et Techniques ou Administratives et Services de Soutien",
       "value": "SpecializedScientificTechnicalAdministrativeSupportServices"
     },
     "RealEstate": {
-      "content": "Real Estate",
+      "content": "Immobilier",
       "value": "RealEstate"
     }
   },
@@ -43,289 +43,289 @@
       "value": "0"
     },
     "opt1to2": {
-      "content": "1 to 2",
+      "content": "1 à 2",
       "value": "1to2"
     },
     "opt3to9": {
-      "content": "3 to 9",
+      "content": "3 à 9",
       "value": "3to9"
     },
     "opt10to49": {
-      "content": "10to49",
-      "value": "10 to 49"
+      "content": "10 à 49",
+      "value": "10to49"
     },
     "opt50to249": {
-      "content": "50 to 249",
+      "content": "50 à 249",
       "value": "50to249"
     },
     "opt250to4999": {
-      "content": "250 to 4999",
+      "content": "250 à 4999",
       "value": "250to4999"
     },
     "Morethan5000": {
-      "content": "More than 5000",
+      "content": "Plus de 5000",
       "value": "Morethan5000"
     }
   },
   "question3": {
     "opt0to100K€": {
-      "content": "0 to 100K €",
+      "content": "0 à 100K €",
       "value": "0to100K €"
     },
     "opt100to500K€": {
-      "content": "100 to 500K €",
+      "content": "100 à 500K €",
       "value": "100to500K€"
     },
     "opt500to2M€": {
-      "content": "500 to 2 M €",
+      "content": "500 à 2 M €",
       "value": "500to2M€"
     },
     "opt2to10M€": {
-      "content": "2 to 10 M€",
+      "content": "2 à 10 M€",
       "value": "2to10M€"
     },
     "opt10to50M€": {
-      "content": "10 to 50 M€",
+      "content": "10 à 50 M€",
       "value": "10to50M€"
     },
     "opt250to4999": {
-      "content": "250 to 4999",
+      "content": "250 à 4999",
       "value": "250to4999"
     },
     "Morethan50M€": {
-      "content": "More than 50 M€",
+      "content": "Plus de 50 M€",
       "value": "Morethan50M€"
     }
   },
   "question12": {
     "WeWorkWithWorkstation": {
-      "content": "We work with workstation (s), without centralized physical server",
+      "content": "Nous travaillons avec des postes de travail, sans serveur physique centralisé",
       "value": "WeWorkWithWorkstation"
     },
     "centralizedServer": {
-      "content": "We have (at least) a centralized physical server",
+      "content": "Nous avons (au moins) un serveur physique centralisé",
       "value": "centralizedServer"
     }
   },
   "question13": {
     "RoomWithoutSystem": {
-      "content": "A closet or a room without any specific system",
+      "content": "Un placard ou une pièce sans système spécifique",
       "value": "RoomWithoutSystem"
     },
     "DedicatedRoom": {
-      "content": "A dedicated room",
+      "content": "Une salle dédiée",
       "value": "DedicatedRoom"
     }
   },
   "question14": {
     "Internal": {
-      "content": "Internal",
+      "content": "Interne",
       "value": "Internal"
     },
     "HostEuropeanCodeOfConduct": {
-      "content": "Host Member of the European Code of Conduct for Datacenters",
+      "content": "Membre hôte du code de conduite européen pour les centres de données",
       "value": "HostEuropeanCodeOfConduct"
     },
     "NonHostEuropeanCodeOfConduct": {
-      "content": "Non-adhering Host of the European Code of Conduct for Data Centers",
+      "content": "Hôte non-adhérent du code de conduite européen pour les centres de données",
       "value": "NonHostEuropeanCodeOfConduct"
     }
   },
   "question16": {
     "LessThan16": {
-      "content": "Less than 1,6",
+      "content": "Moin de 1,6",
       "value": "LessThan16"
     },
     "Between16and21": {
-      "content": "Between 1,6 and 2,1",
+      "content": "Entre 1,6 etd 2,1",
       "value": "Between16and21"
     },
     "MoreThan21 ": {
-      "content": "More than 2,1",
+      "content": "Plus den 2,1",
       "value": "MoreThan21"
     },
     "IdontKnow": {
-      "content": "I don't know",
+      "content": "Je ne sais pas",
       "value": "IdontKnow"
     }
   },
   "question17": {
-    "opt100-90": {
+    "opt100to90": {
       "content": "100% - 90% ",
-      "value": "100%-90%"
+      "value": "100to90"
     },
-    "opt90-60": {
+    "opt90to60": {
       "content": "90% - 60%",
-      "value": "90-60"
+      "value": "90to60"
     },
     "Lessthan60": {
-      "content": "Less than 60%",
+      "content": "Moin de 60%",
       "value": "Lessthan60"
     },
     "IdontKnow": {
-      "content": "I don't know",
+      "content": "Je ne sais pas",
       "value": "IdontKnow"
     }
   },
   "question47": {
     "YesPartially": {
-      "content": "Yes partially, including only equipment present in the company",
+      "content": "Oui partiellement, y compris uniquement les équipements présents dans l'entreprise",
       "value": "YesPartially"
     },
     "YesTotally": {
-      "content": "Yes totally, including our internal equipment and services hosted by third parties",
+      "content": "Oui tout à fait, y compris nos équipements et services internes hébergés par des tiers",
       "value": "YesTotally"
     },
     "No ": {
-      "content": "No",
+      "content": "Non",
       "value": "No"
     },
     "IdontKnow": {
-      "content": "I don't know",
+      "content": "Je ne sais pas",
       "value": "IdontKnow"
     }
   },
   "question83": {
     "LessThan10": {
-      "content": "Less than 10",
+      "content": "Mois de 10",
       "value": "LessThan10"
     },
     "From10to20": {
-      "content": "From 10 to 20",
+      "content": "De 10 à 20",
       "value": "From10to20"
     },
     "From20to30": {
-      "content": "From 20 to 30",
+      "content": "De 20 à 30",
       "value": "From20to30"
     },
     "Morethan30 ": {
-      "content": "More than 30",
+      "content": "Plus de 30",
       "value": "Morethan30"
     },
     "IdontKnow": {
-      "content": "I don't know",
+      "content": "Je ne sais pas",
       "value": "IdontKnow"
     }
   },
   "question84": {
     "Cartridgesusedayear": {
-      "content": "Cartridges used a year",
+      "content": "Cartouches utilisées par an",
       "value": "Cartridgesusedayear"
     },
     "Cartridgesstoredintheaveragebusiness": {
-      "content": "Cartridges stored in the average business",
+      "content": "Cartouches stockées dans l'entreprise moyennes",
       "value": "Cartridgesstoredintheaveragebusiness"
     },
     "Tonersusedayear": {
-      "content": "Toners used a year",
+      "content": "Toners utilisés par année",
       "value": "Tonersusedayear"
     },
     "Tonersstoredintheaveragebusiness ": {
-      "content": "Toners stored in the average business",
+      "content": "Toners stockés dans l'entreprise moyenne",
       "value": "Tonersstoredintheaveragebusiness"
     }
   },
   "question85": {
     "RepackagingIndustry": {
-      "content": "Yes, to a repackaging industry",
+      "content": "Oui, à une industrie de reconditionnement",
       "value": "RepackagingIndustry"
     },
     "RecyclingChannel": {
-      "content": "Yes, towards a recycling channel (destruction)",
+      "content": "Oui, vers une filière de recyclage (destruction)",
       "value": "RecyclingChannel"
     },
     "SeparateCollection": {
-      "content": "No no separate collection device is planned",
+      "content": "Aucun dispositif de collecte séparé n'est prévu",
       "value": "SeparateCollection"
     }
   },
   "question86": {
     "virginPaste": {
-      "content": "Yes, our paper is made from virgin paste",
+      "content": "Oui, notre papier est fabriqué à partir de pâte viergee",
       "value": "virginPaste"
     },
     "mixedPaper": {
-      "content": "Yes, mixed paper",
+      "content": "Oui, du papier mélangé",
       "value": "MixedPaper"
     },
     "recycled": {
-      "content": "Yes, 100% recycled",
+      "content": "Oui, 100% recyclé",
       "value": "recycled"
     },
     "noAttention": {
-      "content": "I'm not paying attention",
+      "content": "Je ne fais pas attention",
       "value": "noAttention"
     }
   },
   "question87": {
     "FSC": {
-      "content": "Yes, FSC",
+      "content": "Oui, FSC",
       "value": "FSC"
     },
     "PEFC": {
-      "content": "Yes, PEFC",
+      "content": "Oui, PEFC",
       "value": "PEFC"
     },
     "blueAngel": {
-      "content": "Yes, Blue Angel",
+      "content": "Oui, l'Ange Bleu",
       "value": "blueAngel"
     },
     "europeanLabel": {
-      "content": "Yes, European Label",
+      "content": "Yes, Ecolabel Européen",
       "value": "europeanLabel"
     },
     "comment": {
-      "content": "Yes, other >> comment fields to add",
+      "content": "Oui, autre >> champs de commentaire à ajouter",
       "value": "comment"
     },
     "noAttention": {
-      "content": "I'm not paying attention",
+      "content": "Je ne fais pas attention",
       "value": "noAttention"
     }
   },
   "quantity": {
     "In%": {
-      "content": "In %",
+      "content": "En %",
       "value": "In%"
     },
     "InQuantity": {
-      "content": "In quantity",
+      "content": "En quantité",
       "value": "InQuantity"
     },
     "noAnswer": {
-      "content": "I do not want to answer",
+      "content": "Je ne veux pas répondre",
       "value": "noAnswer"
     },
     "IdontKnow": {
-      "content": "I don't know",
+      "content": "Je ne sais pas",
       "value": "IdontKnow"
     }
   },
   "YesNo": {
     "yes": {
-      "content": "Yes",
+      "content": "Oui",
       "value": "true"
     },
     "no": {
-      "content": "No",
+      "content": "Non",
       "value": "false"
     }
   },
   "YesNoUnknow": {
     "yes": {
-      "content": "Yes",
+      "content": "Oui",
       "value": "true"
     },
     "no": {
-      "content": "No",
+      "content": "Non",
       "value": "false"
     },
     "noAnswer": {
-      "content": "I do not want to answer",
+      "content": "Je ne veux pas répondr",
       "value": "noAnswer"
     },
     "dontKnow": {
-      "content": "I don't know",
+      "content": "Je ne sais Pas",
       "value": "Idon'tknow"
     }
   }

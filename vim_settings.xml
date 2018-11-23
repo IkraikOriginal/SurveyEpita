@@ -3,33 +3,14 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/WebstormProjects/Javascript/main_en.html" timestamp="1542821982907">
-        <mark key="[" line="24" column="0" />
-        <mark key="]" line="24" column="0" />
-        <mark key="." line="24" column="0" />
-      </file>
       <file name="$USER_HOME$/WebstormProjects/SurveyEpita-master/index.html" timestamp="1542923792160">
         <mark key="[" line="31" column="38" />
-      </file>
-      <file name="$USER_HOME$/WebstormProjects/Javascript/main_fr.html" timestamp="1542823602204">
-        <mark key="[" line="26" column="37" />
-        <mark key="]" line="26" column="37" />
-        <mark key="." line="26" column="37" />
       </file>
       <file name="$USER_HOME$/WebstormProjects/SurveyEpita-master/json/translate-fr.json" timestamp="1542923880777">
         <mark key="[" line="7" column="14" />
       </file>
       <file name="$USER_HOME$/WebstormProjects/Javascript/main.html" timestamp="1542808501092">
         <mark key="[" line="5" column="15" />
-      </file>
-      <file name="$USER_HOME$/WebstormProjects/SurveyEpita-master/assets/js/bootstrap.js" timestamp="1542935090670" />
-      <file name="$USER_HOME$/WebstormProjects/Survey/src/index.html" timestamp="1542807780584">
-        <mark key="[" line="6" column="12" />
-        <mark key="]" line="6" column="2" />
-        <mark key="." line="6" column="2" />
-      </file>
-      <file name="/JavaScript Console" timestamp="1542923794555">
-        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/WebstormProjects/Javascript/function.js" timestamp="1542917967279">
         <mark key="[" line="284" column="1" />
@@ -40,6 +21,25 @@
         <mark key="[" line="237" column="87" />
         <mark key="]" line="649" column="69" />
         <mark key="." line="649" column="69" />
+      </file>
+      <file name="$USER_HOME$/WebstormProjects/Javascript/main_en.html" timestamp="1542821982907">
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="0" />
+        <mark key="." line="24" column="0" />
+      </file>
+      <file name="$USER_HOME$/WebstormProjects/Javascript/main_fr.html" timestamp="1542823602204">
+        <mark key="[" line="26" column="37" />
+        <mark key="]" line="26" column="37" />
+        <mark key="." line="26" column="37" />
+      </file>
+      <file name="$USER_HOME$/WebstormProjects/SurveyEpita-master/assets/js/bootstrap.js" timestamp="1542935090670" />
+      <file name="$USER_HOME$/WebstormProjects/Survey/src/index.html" timestamp="1542807780584">
+        <mark key="[" line="6" column="12" />
+        <mark key="]" line="6" column="2" />
+        <mark key="." line="6" column="2" />
+      </file>
+      <file name="/JavaScript Console" timestamp="1542923794555">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/WebstormProjects/Javascript/formatting.css" timestamp="1542889452151">
         <mark key="[" line="84" column="0" />
